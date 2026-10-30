@@ -61,6 +61,8 @@ export class RemotionRenderer implements Renderer {
       pixelFormat: "yuv420p",
       audioCodec: "aac",
       enforceAudioTrack: true, // Meta bazı videolarda ses izi bekliyor; müzik yoksa sessiz iz eklenir
+      // Yerelde tarayıcı çökerse RENDER_CONCURRENCY=2 gibi düşük bir değer verin.
+      concurrency: process.env.RENDER_CONCURRENCY ? Number(process.env.RENDER_CONCURRENCY) : null,
       outputLocation: job.out,
       puppeteerInstance: this.browser,
       browserExecutable,

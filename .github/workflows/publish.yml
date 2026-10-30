@@ -1,14 +1,16 @@
 name: Paylaşım
 
 # Her 15 dakikada bir çalışır; zamanı gelmiş ve henüz paylaşılmamış içerikleri yayınlar.
-# GitHub cron'u yoğunlukta 5–30 dk gecikebilir; içerik atlanmaz, tetiklendiği anda paylaşılır.
+# GitHub'ın kendi zamanlayıcısı güvenilir değildir (saatlerce tetiklemeyebilir). Asıl tetikleyici
+# dışarıdaki ücretsiz cron-job.org'dur: her 15 dk workflow_dispatch (dry_run=false) gönderir.
+# Bkz. README "Dış zamanlayıcı". İçerik atlanmaz, tetiklendiği anda paylaşılır.
 on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "DRY_RUN: üret ama paylaşma"
+        description: "DRY_RUN: üret ama paylaşma (işaretsizse sadece zamanı gelenler paylaşılır)"
         type: boolean
         default: true
 
@@ -49,15 +51,15 @@ jobs:
         run: npx tsx src/cli.ts check
 
       - name: FFmpeg ve HEIC dönüştürücü
-        if: steps.check.outputs.due != '0' || github.event_name == 'workflow_dispatch'
+        if: steps.check.outputs.due != '0' || inputs.dry_run == true
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libheif-examples > /dev/null
 
       - name: Üret ve paylaş
-        if: steps.check.outputs.due != '0' || github.event_name == 'workflow_dispatch'
+        if: steps.check.outputs.due != '0' || inputs.dry_run == true
         run: npx tsx src/cli.ts run-due
 
       - name: Üretilen dosyalar
-        if: always() && (steps.check.outputs.due != '0' || github.event_name == 'workflow_dispatch')
+        if: always() && (steps.check.outputs.due != '0' || inputs.dry_run == true)
         uses: actions/upload-artifact@v4
         with:
           name: paylasim-${{ github.run_id }}

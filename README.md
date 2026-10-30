@@ -54,7 +54,7 @@ her 15 dk (GitHub Actions)
           └─ state/posted_state.json'a yaz ve commit et (tekrar paylaşım olmaz)
 ```
 
-- **Gecikme:** GitHub'ın cron'u yoğun saatlerde 5–30 dk gecikebilir. İçerik atlanmaz, tetiklendiği anda paylaşılır. İstenirse `schedule.yaml`'daki `en_fazla_gecikme_saat` ile sınır konabilir.
+- **Gecikme:** GitHub'ın kendi cron'u saatlerce gecikebilir; bu yüzden asıl tetikleyici cron-job.org'dur ([adım 6b](#6b-dış-zamanlayıcı-önerilir)). İçerik atlanmaz, tetiklendiği anda paylaşılır. İstenirse `schedule.yaml`'daki `en_fazla_gecikme_saat` ile sınır konabilir.
 - **Tekrar paylaşım koruması:** Her başarılı paylaşım anında `state/posted_state.json`'a yazılıp repo'ya gönderilir. İş yarıda kesilse bile aynı içerik iki kez paylaşılmaz.
 - **Hata:** Bir kanal hata verirse sonraki çalıştırmalarda yeniden denenir. 8 başarısız denemeden sonra o slot o kanalda bırakılır. Hatalar Actions özet ekranında kırmızı görünür ve GitHub e-posta ile bildirir.
 - **İlk canlı çalıştırma:** O anın zamanını `yayin_baslangic` olarak kaydeder. Daha önceki slotlar geriye dönük paylaşılmaz.
@@ -89,7 +89,8 @@ her 15 dk (GitHub Actions)
 4. GitHub'da Secrets'ları ekle → [adım 4](#4-secrets-ekleme)
 5. GitHub Pages'i aç → [adım 5](#5-github-pages)
 6. DRY_RUN ile dene → [adım 6](#6-dry_run-ile-test)
-7. Canlıya geç → [adım 7](#7-canlıya-geçiş)
+7. Dış zamanlayıcıyı kur → [adım 6b](#6b-dış-zamanlayıcı-önerilir)
+8. Canlıya geç → [adım 7](#7-canlıya-geçiş)
 
 ---
 
@@ -236,6 +237,30 @@ npm run run-due -- --dry-run --now=2026-11-02T12:45:00+03:00
 ```
 
 ---
+
+## 6b. Dış zamanlayıcı (önerilir)
+
+GitHub'ın kendi zamanlayıcısı ("*/15" cron) **güvenilir değildir**: yeni ya da az kullanılan repolarda saatlerce hiç tetiklemeyebilir. Paylaşımların saatinde çıkması için ücretsiz **cron-job.org** her 15 dakikada bir GitHub'a "çalış" der. GitHub cron'u yedek olarak açık kalır. Aynı anda gelen tetiklemeler sıraya girer, içerik iki kez paylaşılmaz.
+
+**1. GitHub token'ı (sadece bu repo, sadece Actions):**
+- GitHub → sağ üst profil → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**
+- Ad: `cron-job`. Süre: en uzun seçenek. Bittiğinde yenisi oluşturulup cron-job.org'da değiştirilir.
+- **Repository access:** Only select repositories → `esiler-social`
+- **Permissions → Repository permissions → Actions: Read and write.** Başka izin vermeyin.
+- Oluşturun ve token'ı kopyalayın.
+
+**2. cron-job.org:**
+- cron-job.org'da ücretsiz hesap açın → **Create cronjob**
+- **URL:** `https://api.github.com/repos/hasankokes/esiler-social/actions/workflows/publish.yml/dispatches`
+- **Schedule:** Every 15 minutes
+- **Advanced:**
+  - Request method: **POST**
+  - Headers:
+    - `Authorization`: `Bearer <token>`
+    - `Accept`: `application/vnd.github+json`
+    - `Content-Type`: `application/json`
+  - Request body: `{"ref":"main","inputs":{"dry_run":"false"}}`
+- Kaydedin. **Test run** → yanıt `204` ise tamam. Actions sekmesinde "Paylaşım" çalıştırması görünür; zamanı gelen yoksa ~30 sn'de biter.
 
 ## 7. Canlıya geçiş
 
