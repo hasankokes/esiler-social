@@ -1,4 +1,4 @@
-import { activeProducts, type Config, type ContentKind, type Product } from "./config.js";
+import { activeProducts, fabricKey, type Config, type ContentKind, type Product } from "./config.js";
 import { log } from "./log.js";
 import type { Occurrence } from "./schedule.js";
 import { nextCounter, type Plan, type State } from "./state.js";
@@ -47,13 +47,27 @@ export function pickProducts(
   const last = (u: Product) => state.one_cikanlar[u.id];
   const fresh = pool.filter((u) => !last(u) || daysBetween(last(u), date) >= ROTATION_DAYS);
   const sorter = (a: Product, b: Product) => (last(a) ?? "").localeCompare(last(b) ?? "") || order.get(a.id)! - order.get(b.id)!;
-  const chosen = fresh.sort(sorter).slice(0, n);
+  const chosen = distinctFabric(fresh.sort(sorter), n);
   if (chosen.length < n) {
     log.warn(`${date}: 14 gün kuralına uyan yeterli ürün yok, en eski gösterilenler tekrar kullanılıyor.`);
     const rest = pool.filter((u) => !chosen.includes(u)).sort(sorter);
-    chosen.push(...rest.slice(0, n - chosen.length));
+    chosen.push(...distinctFabric(rest, n - chosen.length, chosen));
   }
   return chosen;
+}
+
+// Sıralı listeden n ürün: önce farklı kumaşlar, yetmezse kalanlar.
+export function distinctFabric(list: Product[], n: number, already: Product[] = []): Product[] {
+  const seen = new Set(already.map(fabricKey));
+  const out: Product[] = [];
+  for (const u of list) {
+    if (out.length >= n) break;
+    if (seen.has(fabricKey(u))) continue;
+    seen.add(fabricKey(u));
+    out.push(u);
+  }
+  for (const u of list) if (out.length < n && !out.includes(u)) out.push(u);
+  return out;
 }
 
 export function markFeatured(state: State, ids: string[], date: string) {
@@ -75,7 +89,7 @@ export function ensurePlan(cfg: Config, state: State, occ: Occurrence): Plan {
   } else if (kind === "sevke_hazir") {
     const ready = activeProducts(cfg).filter((u) => u.sevke_hazir !== false);
     const start = ready.length ? (nextCounter(state, "sevke_hazir") * 3) % ready.length : 0;
-    urunler = [...ready.slice(start), ...ready.slice(0, start)].slice(0, 3).map((u) => u.id);
+    urunler = distinctFabric([...ready.slice(start), ...ready.slice(0, start)], 3).map((u) => u.id);
   } else if (kind === "yeni_gelenler") {
     const n = Number(occ.slot.ayarlar?.adet ?? 4);
     urunler = activeProducts(cfg).slice(0, n).map((u) => u.id);

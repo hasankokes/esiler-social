@@ -83,7 +83,7 @@ test("boş alan içeren açıklama satırı silinir", () => {
   assert.equal(fill("Ad: {ad}\nGramaj: {gramaj}\nSon", { ad: "Bluz", gramaj: "" }), "Ad: Bluz\nSon");
 });
 
-test("etiket sayısı: Instagram 3–5, Facebook 2; açıklama WhatsApp satırıyla biter", () => {
+test("etiket sayısı: Instagram 3–5, Facebook 2; açıklama DM satırıyla biter, numara yok", () => {
   for (let i = 0; i < 10; i++) {
     const ig = hashtags(cfg, "instagram", i).split(" ");
     assert.ok(ig.length >= 3 && ig.length <= 5, `ig ${ig.length}`);
@@ -91,6 +91,17 @@ test("etiket sayısı: Instagram 3–5, Facebook 2; açıklama WhatsApp satırı
     assert.equal(hashtags(cfg, "facebook", i).split(" ").length, 2);
   }
   const cap = buildCaption(cfg, "urun_karti", 0, cfg.products[0], "instagram");
-  assert.match(cap, /Sipariş ve fiyat için WhatsApp: \+90 532 771 06 88 \/ DM\n\n#/);
+  assert.match(cap, /\n\nSipariş ve fiyat için DM\n\n#/);
+  assert.doesNotMatch(cap, /WhatsApp|\+90/);
+  const withNumber = buildCaption({ ...cfg, brand: { ...cfg.brand, whatsapp: "+90 500 000 00 00" } }, "urun_karti", 0, cfg.products[0], "instagram");
+  assert.match(withNumber, /Sipariş ve fiyat için WhatsApp: \+90 500 000 00 00 \/ DM/);
   assert.doesNotMatch(cap, /Gramaj/); // gramaj boş
+});
+
+test("aynı kumaştan modeller aynı içerikte yan yana seçilmez", () => {
+  const state = emptyState();
+  const occ = occurrencesBetween(cfg, zonedTime("2026-11-03", "00:00", tz), zonedTime("2026-11-03", "23:59", tz)).find((o) => o.slot.icerik === "sevke_hazir")!;
+  const ids = ensurePlan(cfg, state, occ).urunler;
+  const kumas = ids.map((id) => cfg.products.find((u) => u.id === id)!).map((u) => u.kumas || u.iplik);
+  assert.equal(new Set(kumas).size, ids.length, `sevke hazır: ${kumas.join(", ")}`);
 });

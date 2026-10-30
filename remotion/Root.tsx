@@ -12,7 +12,7 @@ const brand: Brand = {
   marka_adi: "Eşiler Triko",
   web: "esiler.com.tr",
   instagram: "@esilertriko",
-  whatsapp: "+90 532 771 06 88",
+  whatsapp: "",
   slogan: "60 yıldır aynı kalite, aynı güven",
   renkler: { zemin: "#F5F0E8", koyu: "#1C2B3A", vurgu: "#B5622C", bej: "#D4C5A9", metin: "#2D2D2D", acik_metin: "#7A7A7A", cizgi: "#E2D9CC" },
 };

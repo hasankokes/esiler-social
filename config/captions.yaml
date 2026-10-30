@@ -4,7 +4,7 @@
 #                         {renk_sayisi} {renkler}
 # Değeri boş olan bir alan geçen SATIR otomatik silinir (ör. gramaj girilmemişse).
 # Her açıklamanın sonuna otomatik eklenir:
-#   "Sipariş ve fiyat için WhatsApp: <numara> / DM" + etiketler
+#   "Sipariş ve fiyat için DM" + etiketler (brand.yaml'da numara varsa WhatsApp numarası da)
 # Hikâyelerde açıklama yoktur (Instagram hikâyeye metin eklenmesine izin vermiyor).
 
 renk_kartelasi:
@@ -29,15 +29,14 @@ urun_karti:
     Beden serisi: {beden}
     Seri adedi: {seri_adedi}
     Renk: {renk_sayisi} seçenek
-    Fiyat için DM.
   - |
     Model detayı: {ad} {kod}
     {iplik} · {beden} · {renk_sayisi} renk
-    Butiğinizin raflarına yakışacak bir model. Fiyat için DM.
+    Butiğinizin raflarına yakışacak bir model.
   - |
     Mağazanızda çok soracaklar: {ad}
     {iplik} iplikten, {beden} beden serisi.
-    {renk_sayisi} renk seçeneği. Fiyat için DM.
+    {renk_sayisi} renk seçeneği.
 
 musteri_vitrini:
   - |
@@ -55,7 +54,6 @@ vitrin_yedek:
   - |
     Vitrininize yakışacak: {ad}
     {renk_sayisi} renk · {beden} beden serisi.
-    Fiyat için DM.
   - |
     Rafınızda bu model olsun: {ad}
     {iplik} · {renk_sayisi} renk seçeneği.

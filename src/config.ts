@@ -54,6 +54,7 @@ export type Product = {
   ad: string;
   tam_ad?: string;
   kategori?: string;
+  kumas?: string;
   iplik?: string;
   gramaj?: string;
   beden_serisi?: string;
@@ -128,6 +129,9 @@ export const brandProps = (cfg: Config): Brand => {
 };
 
 export const chip = (cfg: Config, ad: string): ColorChip => ({ ad, hex: cfg.brand.renk_kodlari?.[ad] ?? cfg.brand.renkler.bej });
+
+// Aynı içerikte yan yana seçilmeyecek kumaş grubu
+export const fabricKey = (u: Product) => (u.kumas || u.iplik || `#${u.id}`).toLocaleLowerCase("tr-TR");
 
 export const firstPhoto = (u: Product) => u.renkler.find((r) => r.fotolar?.length)?.fotolar[0] ?? "";
 

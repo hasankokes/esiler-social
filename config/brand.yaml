@@ -2,8 +2,9 @@
 marka_adi: Eşiler Triko
 web: esiler.com.tr
 instagram: "@esilertriko"
-# Her açıklamanın sonundaki "Sipariş ve fiyat için WhatsApp: ... / DM" satırında kullanılır.
-whatsapp: "+90 532 771 06 88"
+# Boş bırakılırsa görsellerde ve açıklamalarda sadece "Sipariş ve fiyat için DM" yazar.
+# Numara yazılırsa: "Sipariş ve fiyat için WhatsApp: <numara> / DM"
+whatsapp: ""
 slogan: 60 yıldır aynı kalite, aynı güven
 
 renkler:

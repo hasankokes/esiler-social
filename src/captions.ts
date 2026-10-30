@@ -48,6 +48,6 @@ export function buildCaption(cfg: Config, key: string, index: number, product: P
   const list = cfg.captions[key];
   if (!list?.length) throw new Error(`captions.yaml: "${key}" için şablon yok`);
   const body = fill(list[index % list.length], fields(product));
-  const footer = `Sipariş ve fiyat için WhatsApp: ${cfg.brand.whatsapp} / DM`;
+  const footer = cfg.brand.whatsapp ? `Sipariş ve fiyat için WhatsApp: ${cfg.brand.whatsapp} / DM` : "Sipariş ve fiyat için DM";
   return `${body}\n\n${footer}\n\n${hashtags(cfg, channel, index)}`;
 }

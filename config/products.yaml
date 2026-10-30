@@ -4,9 +4,12 @@
 # - Fotoğraf: https://... adresi ya da Drive yolu (drive:urunler/MODEL/1.jpg).
 # - sevke_hazir: false yapılan ürün "sevke hazır stok" hikâyesine girmez.
 # - aktif: false yapılan ürün hiçbir paylaşımda kullanılmaz.
+# - kumas: aynı kumaştan modeller (ör. "Taşlı Yonca") aynı içerikte yan yana seçilmez.
+#   Boşsa iplik alanı kumaş sayılır.
 urunler:
   - id: "938046666"
     kod: ""
+    kumas: "Taşlı Yonca"
     ad: "Gönül Bahçesi Penye Bluz"
     tam_ad: "Kışlık Gönül Bahçesi Desen Yaka ve Kol İşlemeli, Taşlı Yonca Kumaş Anne Penye Bluz"
     kategori: "Penye"
@@ -64,6 +67,7 @@ urunler:
           - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
   - id: "936775136"
     kod: ""
+    kumas: "Taşlı Yonca"
     ad: "Gül Salkımı Penye Bluz"
     tam_ad: "Kışlık Gül Salkımı Desen Yaka ve Kol İşlemeli, Taşlı Yonca Kumaş Anne Penye Bluz"
     kategori: "Penye"
@@ -116,6 +120,7 @@ urunler:
           - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
   - id: "936546630"
     kod: ""
+    kumas: "Taşlı Yonca"
     ad: "Kışlık Şakayık Penye Bluz"
     tam_ad: "Kışlık Şakayık Desen Yaka ve Kol İşlemeli, Taşlı Yonca Kumaş Anne Penye Bluz"
     kategori: "Penye"

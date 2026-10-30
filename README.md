@@ -280,7 +280,7 @@ urunler:
 
 `config/brand.yaml`:
 
-- `whatsapp`: Her açıklamanın sonundaki "Sipariş ve fiyat için WhatsApp: … / DM" satırındaki numara.
+- `whatsapp`: Boş (varsayılan) → görsellerde ve açıklamalarda sadece "Sipariş ve fiyat için DM" yazar. Numara yazılırsa "Sipariş ve fiyat için WhatsApp: … / DM" olur.
 - `renkler`: Tüm şablonların renkleri (krem zemin, lacivert, terrakota…).
 - `etiketler`: Havuz, Instagram'da min–max etiket sayısı, Facebook'ta etiket sayısı, her zaman eklenecek etiket.
 - `renk_kodlari`: Renk adı → renk kodu. Ürüne yeni bir renk adı eklenirse buraya da ekleyin.
@@ -321,7 +321,7 @@ slotlar:
 
 ## Açıklama metinleri
 
-- `config/captions.yaml`: Her içerik tipi için dönüşümlü şablonlar. `{ad}`, `{iplik}`, `{beden}`, `{renk_sayisi}`… kullanılabilir. Değeri boş alan içeren satır otomatik silinir. "Sipariş ve fiyat için WhatsApp" satırı ve etiketler otomatik eklenir. Hikâyelerde açıklama yoktur.
+- `config/captions.yaml`: Her içerik tipi için dönüşümlü şablonlar. `{ad}`, `{iplik}`, `{beden}`, `{renk_sayisi}`… kullanılabilir. Değeri boş alan içeren satır otomatik silinir. "Sipariş ve fiyat için DM" satırı ve etiketler otomatik eklenir. Hikâyelerde açıklama yoktur.
 - `config/egitici.yaml`: Cumartesi eğitici Reels'inin ipucu setleri. Her hafta sıradaki set kullanılır.
 
 ## Haftalık önizleme

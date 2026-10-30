@@ -61,7 +61,7 @@ const UrunKarti: React.FC<{ brand: Brand; urun: ProductView }> = ({ brand, urun 
       </div>
     </div>
     <div style={{ position: "absolute", bottom: 90, left: 80, right: 80, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-      <div style={{ fontFamily: SERIF, fontSize: 44, fontStyle: "italic", color: brand.renkler.vurgu }}>Fiyat için DM</div>
+      <div style={{ fontFamily: SERIF, fontSize: 44, fontStyle: "italic", color: brand.renkler.vurgu }}>Seri halinde toptan</div>
       <CtaBand brand={brand} size={24} />
     </div>
   </Paper>
@@ -139,9 +139,15 @@ const KartelaSon: React.FC<{ brand: Brand; urun: ProductView }> = ({ brand, urun
         <SwatchRow chips={urun.renkler} size={56} brand={brand} gap={16} />
       </div>
       <div style={{ fontSize: 34, color: "#E9E1D2", lineHeight: 1.5 }}>
-        Seri halinde toptan sipariş için
+        Seri halinde toptan sipariş ve fiyat için
         <br />
-        <b style={{ fontWeight: 700, color: "#fff" }}>WhatsApp {brand.whatsapp}</b> / DM
+        {brand.whatsapp ? (
+          <>
+            <b style={{ fontWeight: 700, color: "#fff" }}>WhatsApp {brand.whatsapp}</b> / DM
+          </>
+        ) : (
+          <b style={{ fontWeight: 700, color: "#fff" }}>DM'den yazın</b>
+        )}
       </div>
       <div style={{ marginTop: 90, fontFamily: SERIF, fontWeight: 600, fontSize: 40, letterSpacing: 7, color: brand.renkler.bej }}>
         {upper(brand.marka_adi)}

@@ -144,7 +144,7 @@ export const SwatchRow: React.FC<{ chips: ColorChip[]; size: number; brand: Bran
   </div>
 );
 
-// "Sipariş ve fiyat için WhatsApp: ... / DM" bandı.
+// "Sipariş ve fiyat için DM" bandı (brand.yaml'da numara varsa WhatsApp numarası da yazar).
 export const CtaBand: React.FC<{ brand: Brand; size?: number; style?: React.CSSProperties }> = ({ brand, size = 30, style }) => (
   <div
     style={{
@@ -161,11 +161,25 @@ export const CtaBand: React.FC<{ brand: Brand; size?: number; style?: React.CSSP
       ...style,
     }}
   >
-    <WhatsAppIcon size={size * 1.25} color={brand.renkler.bej} />
-    <span>
-      Sipariş ve fiyat için <b style={{ fontWeight: 700 }}>{brand.whatsapp}</b> / DM
-    </span>
+    {brand.whatsapp ? <WhatsAppIcon size={size * 1.25} color={brand.renkler.bej} /> : <DmIcon size={size * 1.15} color={brand.renkler.bej} />}
+    {brand.whatsapp ? (
+      <span>
+        Sipariş ve fiyat için <b style={{ fontWeight: 700 }}>{brand.whatsapp}</b> / DM
+      </span>
+    ) : (
+      <span>
+        Sipariş ve fiyat için <b style={{ fontWeight: 700 }}>DM</b>
+      </span>
+    )}
   </div>
+);
+
+// Instagram mesaj (kâğıt uçak) simgesi
+export const DmIcon: React.FC<{ size: number; color: string }> = ({ size, color }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21.5 3 3 10.2l7.4 2.9L21.5 3z" />
+    <path d="M21.5 3 15.6 21l-5.2-7.9" />
+  </svg>
 );
 
 export const WhatsAppIcon: React.FC<{ size: number; color: string }> = ({ size, color }) => (
