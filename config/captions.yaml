@@ -1,0 +1,100 @@
+# Dönüşümlü açıklama şablonları. Her paylaşımda sıradaki şablon kullanılır.
+#
+# Kullanılabilen alanlar: {ad} {kod} {kategori} {iplik} {gramaj} {beden} {seri_adedi}
+#                         {renk_sayisi} {renkler}
+# Değeri boş olan bir alan geçen SATIR otomatik silinir (ör. gramaj girilmemişse).
+# Her açıklamanın sonuna otomatik eklenir:
+#   "Sipariş ve fiyat için WhatsApp: <numara> / DM" + etiketler
+# Hikâyelerde açıklama yoktur (Instagram hikâyeye metin eklenmesine izin vermiyor).
+
+renk_kartelasi:
+  - |
+    {ad} — {renk_sayisi} renk seçeneğiyle vitrininize hazır. 🧶
+    Renkler: {renkler}
+    Kaydırın, butiğinize en çok yakışanı seçin.
+  - |
+    Bu haftanın kartelası: {ad}
+    {renk_sayisi} renk, {beden} beden serisi.
+    Hangi renk sizin müşterinize göre? Yorumlarda buluşalım.
+  - |
+    Renk renk {ad} 🎨
+    {renkler}
+    Seri halinde toptan sipariş için bize yazın.
+
+urun_karti:
+  - |
+    {ad}
+    İplik: {iplik}
+    Gramaj: {gramaj}
+    Beden serisi: {beden}
+    Seri adedi: {seri_adedi}
+    Renk: {renk_sayisi} seçenek
+    Fiyat için DM.
+  - |
+    Model detayı: {ad} {kod}
+    {iplik} · {beden} · {renk_sayisi} renk
+    Butiğinizin raflarına yakışacak bir model. Fiyat için DM.
+  - |
+    Mağazanızda çok soracaklar: {ad}
+    {iplik} iplikten, {beden} beden serisi.
+    {renk_sayisi} renk seçeneği. Fiyat için DM.
+
+musteri_vitrini:
+  - |
+    Müşterilerimizin vitrininden 🛍️
+    Eşiler Triko modelleri Türkiye'nin dört bir yanındaki butiklerde.
+    Siz de vitrininizi yenileyin.
+  - |
+    Vitrin sizin, kalite bizden.
+    Ürünlerimizi raflarına taşıyan tüm mağazalarımıza teşekkürler.
+  - |
+    Butiklerden kareler ✨
+    Sizin mağazanız da burada yer alsın, vitrin fotoğrafınızı bize gönderin.
+
+vitrin_yedek:
+  - |
+    Vitrininize yakışacak: {ad}
+    {renk_sayisi} renk · {beden} beden serisi.
+    Fiyat için DM.
+  - |
+    Rafınızda bu model olsun: {ad}
+    {iplik} · {renk_sayisi} renk seçeneği.
+
+atolye_reels:
+  - |
+    İplikten pakete, her aşama kendi atölyemizde. 🧵
+    60 yıldır aynı özen.
+  - |
+    Atölyemizden bir gün.
+    Ürettiğimiz her parçanın arkasındayız.
+  - |
+    Örgü makinesinden kargo paketine kadar Eşiler Triko.
+
+atolye_yedek:
+  - |
+    {ad} — {renk_sayisi} renk seçeneği.
+    Kendi üretimimiz, seri halinde toptan satış.
+  - |
+    Yeni sezon modellerimizden {ad}.
+    {beden} beden serisi, {renk_sayisi} renk.
+
+tek_model_renkler:
+  - |
+    Tek model, {renk_sayisi} renk: {ad} 🎨
+    Hangisi sizin vitrininize? Yorumlara yazın.
+  - |
+    {ad} hangi renkte daha güzel?
+    {renkler}
+  - |
+    Renk seçmekte zorlanacaksınız: {ad}
+    {beden} beden serisi, seri halinde sevk.
+
+egitici_reels:
+  - |
+    Toptan alım yapan butik sahipleri için kısa notlar. 📌
+    Kaydedin, sipariş öncesi göz atın.
+  - |
+    Toptan triko alırken bunlara dikkat edin.
+    Sorularınızı DM'den bekliyoruz.
+  - |
+    Mağazanız için doğru toptancıyı seçerken 3 ipucu.

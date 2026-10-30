@@ -1,0 +1,66 @@
+# Marka ayarları. Renkler tüm şablonlarda buradan okunur.
+marka_adi: Eşiler Triko
+web: esiler.com.tr
+instagram: "@esilertriko"
+# Her açıklamanın sonundaki "Sipariş ve fiyat için WhatsApp: ... / DM" satırında kullanılır.
+whatsapp: "+90 532 771 06 88"
+slogan: 60 yıldır aynı kalite, aynı güven
+
+renkler:
+  zemin: "#F5F0E8"      # krem
+  koyu: "#1C2B3A"       # lacivert
+  vurgu: "#B5622C"      # terrakota
+  bej: "#D4C5A9"
+  metin: "#2D2D2D"
+  acik_metin: "#7A7A7A"
+  cizgi: "#E2D9CC"
+
+# OFL lisanslı fontlar (remotion/public/fonts). Türkçe karakter (ğ ş ı İ) destekli.
+fontlar:
+  baslik: Cormorant Garamond
+  govde: DM Sans
+
+etiketler:
+  havuz:
+    - "#toptantriko"
+    - "#trikotoptan"
+    - "#toptangiyim"
+    - "#butiktedarik"
+    - "#esilertriko"
+  # Instagram: her paylaşımda min–max arası etiket (dönüşümlü seçilir)
+  instagram_min: 3
+  instagram_max: 5
+  # Facebook'ta daha az etiket
+  facebook: 2
+  # Her zaman eklenecek etiket
+  sabit: "#esilertriko"
+
+# Renk adı → renk kodu (kartela ve renk geçişlerindeki daireler için).
+# Yeni bir renk adı ürünlere eklenirse buraya da ekleyin; yoksa bej kullanılır.
+renk_kodlari:
+  Bej: "#D9C7A7"
+  Beyaz: "#FAFAF7"
+  Bordo: "#6D1F2B"
+  Gri: "#8E8E8E"
+  Gül Kurusu: "#C08081"
+  Haki: "#6B6B47"
+  Kahverengi: "#5C3B28"
+  Kemik: "#E8DFCC"
+  Kiremit: "#B5523B"
+  Lacivert: "#1F2A44"
+  Lila: "#B9A2C8"
+  Mor: "#5E3A74"
+  Mürdüm: "#5A2140"
+  Parlament: "#2A3F7A"
+  Pembe: "#E6A5B5"
+  Petrol: "#1F5560"
+  Pudra: "#E9C4BE"
+  Siyah: "#1A1A1A"
+  Su Yeşili: "#8FCFC0"
+  Sütlü Kahve: "#A57E5E"
+  Turuncu: "#D9752B"
+  Violet: "#7B4B94"
+  Vizon: "#9C8B7A"
+  Yeşil: "#3E6B48"
+  Zümrüt: "#0F5E4A"
+  İndigo: "#33407A"

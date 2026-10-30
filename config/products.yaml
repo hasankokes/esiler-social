@@ -1,0 +1,1397 @@
+# Eşiler Triko ürün listesi.
+# - Listenin EN ÜSTÜNDEKİ ürünler en yeni kabul edilir ("yeni gelenler" hikâyesi ilk 5 ürünü kullanır).
+# - Boş bırakılan alanlar (kod, gramaj, seri_adedi) görsellerde gösterilmez.
+# - Fotoğraf: https://... adresi ya da Drive yolu (drive:urunler/MODEL/1.jpg).
+# - sevke_hazir: false yapılan ürün "sevke hazır stok" hikâyesine girmez.
+# - aktif: false yapılan ürün hiçbir paylaşımda kullanılmaz.
+urunler:
+  - id: "938046666"
+    kod: ""
+    ad: "Gönül Bahçesi Penye Bluz"
+    tam_ad: "Kışlık Gönül Bahçesi Desen Yaka ve Kol İşlemeli, Taşlı Yonca Kumaş Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon Karışımlı"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Sütlü Kahve"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261017/10/600b4ea1-0d56-318a-b01c-c2aedd842d48/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261017/10/bd84efb6-b349-3238-ae30-a6f71da6c54d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/c819d96f-50ba-3599-b091-e72c5f856c05/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Gri"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/a0b2fbe3-9013-3eac-a137-1b69e50c4aec/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261017/10/507d3216-1cdc-3295-88a8-8216c31f1913/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Kahverengi"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261017/10/e5602fbe-7e20-3ae2-a9ef-636a6db5aa32/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261017/10/6455b754-ed5a-352b-ab50-d694d264f423/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261017/10/4b756032-7657-3aef-b653-135b153e0d2d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/574e87af-bdc1-3f58-8008-00abd5c3e328/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261017/10/56ca4b96-f878-37e4-9028-f65f62f00701/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261017/10/fb94449e-de54-3fd3-b773-94e4cb8492b3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Haki"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261017/10/90bc5941-9972-389d-9bc5-5bbab69ef100/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/23ce78c5-3a9a-32f0-9422-901ddf198b74/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261017/10/0ce9a46f-8a1e-32ce-9860-83b8c96dd677/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261017/10/cfcec181-382b-3d17-96fa-c2fd82527554/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/8c27fc06-3fdf-3cab-b911-70d9cd40e930/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261017/10/f9a0908f-d402-347e-980a-eca9fe2faf8d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Lacivert"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/4d0f5ff1-e742-3e1e-b172-4d7a450ef807/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/e43c7add-b850-354c-8393-b63b0a59212c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261017/10/3c5f2a61-fe77-321e-9f0b-bfdb5eb8c253/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261017/10/44f024a8-358a-3266-887a-d922fbe327b8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+  - id: "936775136"
+    kod: ""
+    ad: "Gül Salkımı Penye Bluz"
+    tam_ad: "Kışlık Gül Salkımı Desen Yaka ve Kol İşlemeli, Taşlı Yonca Kumaş Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon Karışımlı"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Lacivert"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/13/4dbb2e6a-70b9-3338-86da-350b451b8152/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/13/e065487d-b004-323a-b085-45088e5bffb4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/13/4ad4ee1b-589d-3064-b4db-1bc4e154a05f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/13/075a9163-9141-3cd1-9859-100d4c35e00e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Kahverengi"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/13/66ee3035-4bf2-361a-852f-d8338742cd69/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/13/08999058-1997-3c2f-96f1-3f2e3119f92f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Haki"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/13/de2ca1c3-ec0b-3d69-be37-8bea4e92adde/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/13/98fb32eb-ac92-351b-96ba-f4d69ae2acd8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Gri"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/13/c056633b-a0ba-3cf5-b11f-11e1731dfd75/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/13/d3dc47d2-4c65-3be2-9061-fe9f985e4732/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/13/7d02a6ed-706d-36c0-bc1d-065ab4d9e58d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/13/9fb53ffb-7d21-3f6e-9a34-245a4d8b8e34/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Sütlü Kahve"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/13/6ecae8db-f431-31f9-9264-a2c818bed1f1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/13/dfb4fb55-4ca2-3cdc-9976-24d2bd946b13/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/13/99c62247-acaa-3ed6-af54-bb8e6f5efb9a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/13/078a2a00-77f1-337b-9855-daecf50e4852/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+  - id: "936546630"
+    kod: ""
+    ad: "Kışlık Şakayık Penye Bluz"
+    tam_ad: "Kışlık Şakayık Desen Yaka ve Kol İşlemeli, Taşlı Yonca Kumaş Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon Karışımlı"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Haki"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/02/e4ca2c59-2886-34b0-8cc9-9f47ac7367b9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_ENRICHMENT/20261015/02/6a9f3f20-0f9e-38a3-a9d2-458cc6b07f04/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/02/abb606b0-1721-3823-bb30-9bc045546b03/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Lacivert"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/56333172-777d-3706-b86c-d6c56bc6ca9f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_ENRICHMENT/20261015/01/202b6577-ba99-3b82-896d-983cf6622839/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/ff8e802a-eb42-3877-b4d0-2a01f7555f6d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_ENRICHMENT/20261015/01/e99b4b29-6c44-3746-a9c1-b8c604d9590c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_ENRICHMENT/20261015/01/ffd215ed-7616-33cd-b623-eeef48d10785/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/460df150-977f-38d2-b0d6-3fe914a7912f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Kahverengi"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/d90fd803-72a0-3961-bbe6-7e903e134f61/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_ENRICHMENT/20261015/01/1238ac86-591f-38ca-8b34-c47c38e09bd6/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/d7b968f5-7dbc-3fb9-8399-290f9cdf2218/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Sütlü Kahve"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_ENRICHMENT/20261015/01/2de1a1c1-c4ae-3324-9b69-24af88190f46/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_ENRICHMENT/20261015/01/adcc3d9c-45d5-3169-b830-bc886af7cc62/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/6154f063-c40b-3b44-a81b-76d68275112f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gri"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/dd3a3519-4e08-301d-97ac-881e06e92fc1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_ENRICHMENT/20261015/01/50e32a3f-fb3c-3947-95f3-bb3da21ef71e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_ENRICHMENT/20261015/01/62ea54a1-7a85-3dcc-96e0-78802e5ed0fa/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_ENRICHMENT/20261015/12/8ced4fb0-3ad6-389f-9548-01b6805e2699/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_ENRICHMENT/20261015/12/1d2be30a-a24e-358b-9872-22854ec12111/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_ENRICHMENT/20261015/12/9fc95e5c-bd46-3405-8164-5e925a6f9fe0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/02/6dcfdc87-3373-35c7-b51c-968444907a43/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/02/89e5f423-3af5-3e6d-94db-06ad0b8de5be/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/02/6a52c939-5429-38cc-ab9e-55c8e6029e2f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+  - id: "936568714"
+    kod: ""
+    ad: "Burgu Desen Düğmeli Penye Bluz"
+    tam_ad: "Kışlık Burgu Desenli 4 Düğmeli Triko Görünümlü Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Triko"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/6a952022-cc50-3d2b-87ba-b84203e69f50/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/83eb2d77-b164-3ec1-bf50-d48aaeba4801/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/d2747c15-4c23-3e03-849e-0345d42866ec/1_org_zoom.jpg
+      - ad: "Gri"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/8368871f-7b16-3bc5-92f1-c0b9e64b0717/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/590cb94f-cdfe-30f4-b3eb-523927b36343/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/2a1d10a4-a025-389f-9eef-3c211b7b524c/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/4e308575-30b1-3661-8975-f307b9c02335/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/3ddb9398-3879-3e4b-8bfa-2a6a2591f1cf/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/bd2cd8df-288e-31ec-a5b7-2c6bd9231925/1_org_zoom.jpg
+      - ad: "Pembe"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/ef6e15cb-135e-33da-82f7-0b1e4c6e5417/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/29baf1ba-0d2a-3e41-ae00-d84cc268b209/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/57223a05-9412-3eab-9cbd-c7c65287c46e/1_org_zoom.jpg
+      - ad: "Sütlü Kahve"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/f1dae7f7-2c89-3b9b-b6af-1b0896f1fefb/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/81afab9a-f873-37a0-b294-385dedb6155a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/1066389c-743c-3a49-845a-c5638c290ac5/1_org_zoom.jpg
+      - ad: "Lila"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/a4556994-8ced-3620-853e-b88c46f5a221/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/51bc5826-8d14-3079-8fb3-7884ceeedd0f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/e210bd40-aa4c-38df-a151-0b89d0e6d192/1_org_zoom.jpg
+      - ad: "Su Yeşili"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/af4447d5-eb20-323c-985d-bb823a4444f1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/fb97f02c-64df-39ee-aeec-2694c4d4b842/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/7ea955b1-596c-3c47-ab50-d2cea42f6595/1_org_zoom.jpg
+      - ad: "Lacivert"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/769766be-51b2-3e45-a4ad-aaafdee7bc63/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/9da32442-fc2d-307a-85b9-ea14315f22b0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/6dc08378-0b99-3d46-913e-30353b110209/1_org_zoom.jpg
+      - ad: "Turuncu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/3bf87ca4-931d-3fb6-a4af-0e1153705b0d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/f76c9f44-6582-3fa9-aced-e0b6c574e910/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/aa2bfe5b-4265-3f09-b6c9-632dd629c050/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/4000f75c-2b62-3e7e-973a-03e82f1e4154/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/7ed0bb7d-5d6b-31c4-b1e3-e899259bd90f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/7d1b910b-b620-3380-8420-1398347c7bec/1_org_zoom.jpg
+      - ad: "Kahverengi"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/0bfbed34-15d1-38b3-9fdf-972b9367fcec/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/2d370bdd-cc3e-34b5-9e2d-5034e424e224/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/1da730cc-d6a0-36b3-b4b0-759f80a3c691/1_org_zoom.jpg
+      - ad: "Yeşil"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/4e733c65-26d7-356a-82ad-5d28bff00f46/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/64bdc6fb-a914-3144-b677-08525f397f67/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261015/01/a589067c-d0ea-321f-a50f-dc7ef5d464f4/1_org_zoom.jpg
+      - ad: "Bej"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261015/01/b14d2dee-fdce-32df-b917-0045a426df95/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/dca7c16c-fbb2-3d71-afc5-0393930e07ce/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261015/01/5f06d7b5-ee4b-3ce0-b002-67e1436172b4/1_org_zoom.jpg
+  - id: "879120510"
+    kod: ""
+    ad: "Hercai Menekşe Penye Bluz"
+    tam_ad: "Hercai Menekşe Desenli Göğüs İşlemeli, Taşlı, Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260520/20/437436d6-6197-3eec-8a2f-49b9548f07ee/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260520/20/480b55ff-09b4-3605-8569-7f37249defd4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260520/20/dd49cecb-4921-351d-b2f8-6bf08cddb5a8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260520/20/c56205ba-bcaf-3560-9947-dae04810e92a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260520/20/4b784357-b3ac-336d-891a-b42efeb272f0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260520/20/9872d96b-c8fd-3713-a986-dfef38cdde4c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260520/20/4ed20d62-31c4-3cb1-988e-a4909c00401f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260520/20/b096e624-57ae-37f0-be41-c2c905f38595/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260520/20/dc371adb-f5b2-39e6-a519-c4df1b152b52/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260520/20/77ed3f47-a34c-34a6-82de-9fd9a3ea0ae1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260520/20/3fc8fd24-b08e-3f08-a000-7714816c8b65/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260520/20/054c5b34-3864-3185-8b43-44a67b173849/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260520/20/e66e2ccd-5f29-300f-abc0-8cfaafbab790/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260520/20/0c0b6c3b-120a-301d-98e6-48608fc07ad2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260520/20/d89f2751-ad5d-31e4-8814-3348abbc0a52/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260520/20/7bdde933-9e52-3c8a-be33-31e36163e466/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260520/20/fa28cdb3-6744-33b9-b621-ca594fab60fa/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260520/20/0b455468-75a0-381b-86cd-97bfa7051d8c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260520/20/62b90f0d-e3e7-36c8-bb9a-989df2baba8a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260520/20/ca730c62-4852-3ec8-beb6-e97293e5e0a5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260520/20/cca585a2-ade7-354c-b3f9-88acd8fca1a8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260520/20/e46ed456-996c-3e1e-aed6-b95abea90021/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+  - id: "878866843"
+    kod: ""
+    ad: "Söğüt Yaprağı Penye Bluz"
+    tam_ad: "Söğüt Yaprağı Desenli Göğüs ve Kol Taşlı, Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260520/01/7e43e008-76f1-3fac-b126-bdcf9d3833ff/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260520/01/9afd2ba3-232b-3414-9323-0efaea63bbbb/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260520/01/e24b7872-0106-3be3-81f5-5f9330b8ee56/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260520/01/44bb9477-175c-3cb7-b91a-53f11b70c894/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260520/01/1f98e03b-ca56-373e-97f3-08d44d9398b6/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260520/01/ffb1a34b-a0b9-3bb9-b4b1-cfd4d9765536/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260520/01/1df688c6-2af7-3e47-9583-c6400f8c060c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260520/01/b40d1256-f8f3-32f3-a1b2-0ec58b2681d0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260520/01/2cc0107a-87a3-3594-a202-ea0de025dbee/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260520/01/33118b60-6210-35df-9110-d3bcd4e8de89/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260520/01/b33cfa1f-f8e4-3b8a-b029-43d1b754a3d4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260520/01/7d929293-d6a8-3ff4-ac5e-ea3a69b6ab20/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260520/01/31debc7e-e30c-3621-98ff-ef295baacf13/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260520/01/4ff1d596-ce8a-38d4-a97d-92c9e2df1c08/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260520/01/ba03c325-f12e-3b6a-8aa1-0a7a7b949401/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260520/01/70f1c885-2308-306b-9fcd-fc643a64ff90/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260520/01/941a5ad0-0ec2-3839-9018-35bce303f726/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260520/01/fe7ac9f2-2be7-39c9-a968-4a98619a1b7b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260520/01/23215f93-3001-3553-be3b-61999f63b70f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260520/01/4a71ad07-da75-3149-9a9a-6919780bfed3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260520/01/0181a83b-16ad-34ed-a7bb-b5941ce3b5a0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260520/01/f2320996-2447-362f-92e0-30df695f3699/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260520/01/83369e4a-7be9-3ea3-b264-9cfc04bd2e84/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+  - id: "865368250"
+    kod: ""
+    ad: "Sütun Çiçeği Penye Bluz"
+    tam_ad: "Sütun Çiçeği Desen Yaka Ve Kol İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/0e284e41-6c5c-3e64-b4fc-cdbec58c25f9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/434277eb-4b0b-3a72-b22a-a3eda1b93163/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/cdc00edc-1c64-3ae4-9f0e-f190f642b747/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/edff0491-2f32-3526-b6fc-2070cd7841a3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/09d6a95b-9c07-36c1-a64a-6f3d4d3d6e45/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/69478842-bddc-3fa8-af08-a0b72eaec420/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/44ce5ba3-3f41-3601-b2d1-dc0d716d5858/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/16/c8a0baea-3385-385f-9aad-7d814170d706/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/876e337f-412f-3116-a805-597aa8393d8f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/16/48ad7896-7829-3c9b-b79a-59bfbf7e548e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/68a9cb77-ef36-384b-b7bf-c4b09ccee6da/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/f4a2156c-afe9-36e8-a5d1-82dbb0747cef/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/6ba65c50-c15b-3682-8daa-841eb976ae5d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/dd8cc184-89c8-3aea-abf3-cc82a7a9c338/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/513241c6-770a-338d-b491-4409a04d8dc2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/16/208cfcca-1095-3265-a4b1-e090962391cf/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260521/21/613a1737-34f1-37d7-8e64-8bb60b542264/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260521/21/c373a4a0-47ea-314b-aa8e-95bb70f2c89b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260521/21/ebd102e7-facd-3ab3-b04c-17a2f4756c38/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260521/21/681df488-c727-3483-80ee-6f5fe4163451/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260521/21/d3caf9ec-df90-3c65-87e9-7350f9806048/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260521/21/2326e7a7-9c61-3b5c-ade4-3d82af5ddcc8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+  - id: "864112317"
+    kod: ""
+    ad: "Yansıma Penye Bluz"
+    tam_ad: "Yansıma Desen Yaka Ve Kol İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_ENRICHMENT/20260409/03/6e986147-61a1-3cb1-986f-42664139ffef/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/373a9ad7-e6b3-3998-b678-b465c6654beb/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_ENRICHMENT/20260409/03/07910aff-86da-325e-ba74-b4c1cd76841b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/eacf3551-9c2e-368c-bd07-75be51e7fb6e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/12b61e17-95be-3f96-918a-3d3e9f928456/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/02f3bfbf-4496-3cf2-b7d7-eba51cf7d8cb/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1900/prod/QC_ENRICHMENT/20260429/19/b51c42e3-682a-3fc7-815f-41c575d5d2a4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1912/prod/QC_ENRICHMENT/20260429/19/75143be7-bd67-38d3-8d88-358b558bfb0b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1933/prod/QC_ENRICHMENT/20260429/19/abc57656-eba0-39a5-ab12-ece324442c18/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_ENRICHMENT/20260409/03/0ca2506c-7ca4-395b-be65-4c4e6a87d5ab/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/a9c11e82-c042-3325-aec0-c249590cac06/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_ENRICHMENT/20260409/03/b51c075f-ca25-3bc4-ae72-0c4a2ddab59c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1896/prod/QC_ENRICHMENT/20260429/19/afe16106-6848-3660-b638-1c7c32363344/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1930/prod/QC_ENRICHMENT/20260429/19/0274a931-8c31-382b-be05-875c333e7435/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/0cc5e0c4-dade-349d-91a6-4d00ccff78b2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/709c488a-c53c-3b1a-bcc4-c7ad8cd93e0e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_ENRICHMENT/20260409/03/ad32d9d2-61c0-3876-b9e4-8e37e8e0f050/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/03/39506be7-7dec-31f0-9e95-80967c54feb4/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_ENRICHMENT/20260409/03/ac25362c-5af7-353a-8809-831e8f98a2c4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_ENRICHMENT/20260409/03/5c1f4ca5-23a3-3334-9e76-6b6f9045d5e8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1939/prod/QC_ENRICHMENT/20260429/19/5f82a5a9-df3b-3136-ab08-f448dba8395c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/02/cb71a24a-1795-3205-9365-9217f8046ba3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/02/5ab62bcb-fe3d-3f5d-b43d-65d10f4b4ba4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260409/02/ab7b965c-b357-3065-b915-25ae284da9df/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260521/21/5dab2a58-d33c-3788-9552-103afea1412b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260521/21/ddc7ab20-814c-3176-b3b4-8fd7e156ef57/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260521/21/eca3607b-bd28-36e0-b522-244cd24ab8c4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260521/21/31a82d33-1077-353c-9151-93bbf79d4f74/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260521/21/ed56d005-4803-3efb-9d13-c709748dc0b6/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260521/21/8cbc2e4f-a4e4-3bef-8d15-28fa8dc9d0d5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+  - id: "880447635"
+    kod: ""
+    ad: "Zambak Penye Bluz"
+    tam_ad: "Zambak Desen Yaka Ve Kol İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260524/01/bf930b67-ab58-32eb-a1c7-9caeb098c37e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260524/01/9249a9b9-559a-3e1b-b83b-d01b48b7ba26/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260524/01/1653672c-3455-3bb6-8edf-3339046eaf81/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260524/01/084f30e0-7bda-3bf2-8826-a7ab49a32ca9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260524/01/4e64b57c-65f4-3efb-a811-a4576c8ab565/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260524/01/b19b05bd-2c7f-3a2f-9029-692cf0c4cf8b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260524/01/bf72db2a-2ae8-37e3-84b7-57ba8b5c7660/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260524/01/e2103dde-0adc-3b51-bd68-59d99798e006/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260524/01/50e6dfda-c077-3086-81a8-66d760649c03/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260524/01/3ca25833-aeab-302b-b5fb-4c1f208cd874/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260524/01/78caaa1b-0225-3b9b-8b14-d2cc74243952/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260524/01/b988ff4b-d4da-3a55-9a36-f1640a7839be/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260524/01/4d59d526-933d-3a6f-91c0-8fabe2d00b78/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260524/01/cbffd8d1-7452-3904-8e0e-df7163d7ff78/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260524/01/cc7e82e8-9551-3eeb-b893-1346252a4665/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260524/01/a138af88-e527-34a2-ba15-4488566fe906/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260524/01/5d118b82-c27c-3629-a9ca-7a37dd913805/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260524/01/aa06c143-4476-3107-9bc0-16a9e4fd4191/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260524/01/ad5328ca-6aa7-3ddd-9b12-6639b8c8076b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260524/01/b21285d6-3d81-30ba-adaa-e5c8f1a1ce2a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260524/01/ba326d19-709a-3323-8e3d-0b688cf25de5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260524/01/d1d24a8b-6123-3573-aba5-a11f16bdb25c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+  - id: "880901080"
+    kod: ""
+    ad: "Şakayık Penye Bluz"
+    tam_ad: "Şakayık Desen Yaka Ve Kol İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: ""
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260526/01/f3ce7b06-e776-3265-9c94-14c9e6581ce5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260526/01/31bc2fc0-8033-3012-b690-03359caddc36/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260526/01/01c7abe2-3cce-37bd-abef-b2ea5015a088/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260526/01/9ff93bb3-4b0c-3f2d-b649-5223a0363efa/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260526/01/f384b706-c1e6-3d34-96b4-d7b0a51adb2a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260526/01/a8a7d37c-0ba4-39ea-a430-0aac40f68c12/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260526/01/8c868788-ad77-3cee-b3fe-d16914bab500/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260526/01/471a5189-6e0a-3f1a-a6b3-e085323fcccd/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260526/01/b4f21840-6a4a-3a88-8e10-93ba9ab27585/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260526/01/9e16dfb2-e4d9-3743-a4a2-22107724348b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260526/01/f25f1b5e-0a66-3573-a49c-c151eb336b13/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260526/01/c698b154-204b-3bc7-9333-96115507b749/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260526/01/cc853717-bc9a-376f-8e37-3991a5b2f7f4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260526/01/de8d55b1-cc40-3cff-97fd-f6761924d9b4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260526/01/3949edd3-2ff2-3c4f-bad6-e610c26ac02e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260526/01/1b363201-503c-30f6-99e1-560c9eba98a4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260526/01/88e9cc24-caa7-3a6f-b09a-34c8c1739268/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260526/01/42ae5a32-7c91-302d-858b-08f4e5a5ad31/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260526/01/dae0c685-150f-3768-9b82-fc9d688f92cc/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260526/01/79e47d58-40b5-3bf9-84af-1972fef05c1a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+  - id: "876321818"
+    kod: ""
+    ad: "Silüet Simli Penye Bluz"
+    tam_ad: "Silüet Baskı Desenli Simli Likralı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon Karışımlı"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Lacivert"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260513/01/8f19375d-3df7-3acc-9c17-3961f9d333eb/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260513/01/48aca298-8884-3db6-94b4-6b34aa3c1faa/1_org_zoom.jpg
+      - ad: "Kahverengi"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260513/01/fd62932b-8848-3b69-8a00-ee3a1149f2da/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260513/01/c2c8e7b5-2d80-3663-a5ac-0bfc6f19e713/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260513/01/690d788b-d738-3d1f-8533-64f6e532d1a8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260513/01/4be011a7-f0b9-30bf-a69c-cb86af1793e7/1_org_zoom.jpg
+      - ad: "Yeşil"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260513/01/edfc979b-7c99-3e2f-a153-b9858821f131/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260513/01/35659687-a5ab-3cd7-8ad9-01b410e0f149/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260513/01/f03b27cd-a915-3325-8c21-242905b7eb8d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260513/01/c28b5472-dde5-3d02-aa18-5763e075c711/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260513/01/5bae48c1-42e8-3d79-ad04-cc0f5bc9dfcf/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260513/01/e0610d1c-f3f6-38ad-9cd4-4c38712a5010/1_org_zoom.jpg
+      - ad: "İndigo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260817/13/127c882d-a0d3-3815-8cbc-38ab41f1a8cd/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260817/13/2d7df857-6238-3f2e-b6d2-537519828c52/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260817/13/ce3ba886-a8b3-36a7-9c35-d4f51c962adc/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260817/13/c27b570f-0bc8-392a-ad53-2684597111d0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260817/13/9b10bb26-aab8-30e1-a2a1-7c2f4d2c7eee/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260817/13/e6a29117-1f7c-36dc-b7c6-292666a68827/1_org_zoom.jpg
+      - ad: "Mor"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260817/13/f1458db1-bf5a-369b-bf1a-a3728181effa/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260817/13/e48a68a4-8d2b-3b62-a79a-545c5cdd1d5b/1_org_zoom.jpg
+  - id: "864777715"
+    kod: ""
+    ad: "Bahar Salkımı Penye Bluz"
+    tam_ad: "Bahar Salkımı Desen Yaka Ve Kol İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1911/prod/QC_ENRICHMENT/20260523/22/284e5bcc-a324-3a6a-8e64-d31651415a0e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1911/prod/QC_ENRICHMENT/20260523/22/805b92bc-a45a-3877-aa83-5271e8c63b97/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1901/prod/QC_ENRICHMENT/20260523/22/1a644fda-3366-312d-9f03-eda948904e17/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1926/prod/QC_ENRICHMENT/20260523/22/e34f1d1a-ec45-346e-8144-46b5f85e5653/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1931/prod/QC_ENRICHMENT/20260523/22/f817c85a-bab3-33a1-95c5-fe815336096a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1920/prod/QC_ENRICHMENT/20260523/22/18abaea3-0e40-3ce3-95bc-f724b670075b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1917/prod/QC_ENRICHMENT/20260523/22/f8a681af-0728-31ab-a0e0-f4ab5e34a134/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1939/prod/QC_ENRICHMENT/20260523/22/16adfc3d-40f9-32c9-bda6-e47ff7a9c404/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1910/prod/QC_ENRICHMENT/20260523/22/77ee7034-44e2-3cb7-9927-87483c55b574/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1926/prod/QC_ENRICHMENT/20260523/22/9678742b-7a33-37c2-ae32-0f3871232ffe/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260523/22/bb1c66a3-ac86-3a1c-82a8-5876536df70a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1929/prod/QC_ENRICHMENT/20260523/22/802423d6-1b6b-3eb7-80ca-a119180c89ee/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1898/prod/QC_ENRICHMENT/20260523/22/61885903-f274-37f3-b392-39e4988cfe82/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260409/16/8110bf5e-adb2-35c8-8143-e03571d9d72a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/16/ecb4b666-8439-37e6-9096-0549acdeb28a/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1932/prod/QC_ENRICHMENT/20260523/22/767f063a-c7d2-3b19-869e-11c85cf25841/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1922/prod/QC_ENRICHMENT/20260523/22/e335a13f-227d-3a29-88b7-30e9042dc3d8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1914/prod/QC_ENRICHMENT/20260523/22/e669d385-bbcf-3d04-93ec-b3b24a66fe74/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+  - id: "865369612"
+    kod: ""
+    ad: "Dağ Harmanı Penye Bluz"
+    tam_ad: "Dağ Harmanı Desen Yaka ve Etek İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/01/ca5712d2-523c-3875-aabd-d9b32db58f75/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/01/b016bfc9-1b6e-35f8-ba5e-ee8ff7c8fc5a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/01/d263ed71-21dd-3ff5-8b1b-4fca53ce5026/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/01/2ef1deae-dedd-35d3-bb32-f1106e084881/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/01/4ce2e2dd-afd6-3c5e-b227-5864de5ef0a2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/01/dbeaf613-fc22-3d57-9f3c-825c467ce847/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/01/da76bbd0-c984-3d48-b5d5-9696cc7f4061/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/01/d81b834b-716f-307a-beed-09d6b3b1e607/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/01/903c18cd-735d-3bd6-8081-bb1cc03490aa/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/01/faaac799-3990-3f08-92c4-dcd9648a51dd/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/01/13d45058-e764-3ffe-930d-e9fe05c6e6ef/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/01/5a0ae665-5be6-386d-87ce-82f392b9bce9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/01/8247fb0a-be28-32a6-8d98-04d6ee0f333a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/01/edc56246-c062-3a4c-b0f6-bc20626612f2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/12/2519011f-bc6e-3c36-897e-9e23ca186516/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/12/f6021ae4-b503-3085-b3a2-db69a017f98b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+  - id: "865045808"
+    kod: ""
+    ad: "Günebakan Tacı Penye Bluz"
+    tam_ad: "Günebakan Tacı Desen Yaka İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/11/31145da4-fa8f-3813-8c81-da7fa762f9e9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c92faaa-aaad-3f04-b641-0d9d132998b3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/b7178f37-132f-337f-9150-85fe2e2f6083/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/11/a1045c40-45e9-3ce1-9da0-90beb0b1c92f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/46c9ca66-0359-3719-a193-0c178c92e909/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/75c7cdc4-5685-3f50-9127-198efafd5b6f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/bf32c705-efc8-3672-a67e-30d0395ab8f9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/b5ca3aa4-2df6-3738-9703-987b0d6cb2a4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/f89864c5-b2ab-316d-9866-0a25945c5e5b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/e0c0fa9b-ae0b-3d27-8a23-58c0336ff277/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/11/31855715-75e5-3b70-8a59-a93d8bd38fa3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/25998ea1-d8be-30e7-9e54-798ecbac7de5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/11/02dd6023-575d-361e-8188-f1fe1159552a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/12e1231d-6f8b-3ca0-aee3-572144c1ceba/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/2b027f68-fe53-3180-a07e-56a6903417da/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/f20afbd9-b8c9-3a10-9952-571a89d87e7d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/dc89d430-d30e-37e1-87ea-ae9940d636da/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+  - id: "864548374"
+    kod: ""
+    ad: "Çift Gonca Penye Bluz"
+    tam_ad: "Çift Gonca Desen Yaka İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/22/66a1b7e9-1524-3e17-a0ec-4112888e12bd/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260408/22/189dd721-501c-3f56-b341-35aa14acc67e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1897/prod/QC_ENRICHMENT/20260523/22/ed5f82ea-f3f7-3a34-b9b2-31bd6ae15442/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/22/6966c5ff-773f-377f-b306-0789afcc64df/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1929/prod/QC_ENRICHMENT/20260523/22/42fee7ea-c372-32c1-b574-23c16c4bcc7c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1929/prod/QC_ENRICHMENT/20260523/22/5b58735f-98e4-3773-a027-be2ea38d081c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1915/prod/QC_ENRICHMENT/20260523/22/c6b98981-3156-3a86-bfcc-f1a9ed522eb4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1904/prod/QC_ENRICHMENT/20260523/22/23a83832-9e6a-3d36-bf13-ff307e6f7896/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260408/22/ce273943-ca4d-3379-ac85-eac1feb292c6/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/22/c8086753-1a75-3cf6-ae6d-489be0ca1e08/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1935/prod/QC_ENRICHMENT/20260523/22/9ee40d49-f156-3670-b338-c1bd11719691/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260523/22/b009adce-8c54-3d32-b3b8-d3a76dc25370/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1896/prod/QC_ENRICHMENT/20260523/22/2fcbe317-ad8a-3445-b89d-9defebef8227/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/22/7d7344b0-9e21-3250-b67e-3fb9f6786c9e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1933/prod/QC_ENRICHMENT/20260523/22/17dd3bb5-cd05-3d76-ad87-266bf54b3a5f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260408/22/c6d66060-ef9a-3e28-9565-1346c1553289/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1911/prod/QC_ENRICHMENT/20260523/22/be51b6f6-d41c-322c-8140-be04946fae00/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1892/prod/QC_ENRICHMENT/20260523/22/c97b7869-dc21-3eda-a096-eacaef4bbb10/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1909/prod/QC_ENRICHMENT/20260523/22/af2f1547-8e9c-3cc8-9a0e-1d44ba0836f7/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1895/prod/QC_ENRICHMENT/20260523/22/86c315eb-cd78-3c2a-8487-5b5c152b2c08/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1898/prod/QC_ENRICHMENT/20260523/22/23ac94f5-78ad-31d1-add8-f1e5a3f4828c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260408/22/5c44a701-4e22-3489-b63e-9198f68702d2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1943/prod/QC_ENRICHMENT/20260523/22/4abfef33-437e-367f-aa4c-734bdd5666d9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1934/prod/QC_ENRICHMENT/20260523/22/050a4424-c233-3638-b439-8166abccd789/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+  - id: "865426352"
+    kod: ""
+    ad: "İlkbahar Penye Bluz"
+    tam_ad: "İlkbahar Desen Yaka, Göğüs İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–2XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/13/b0728837-b8e1-3db6-857e-c33c4980ea7b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/13/c5aa4301-4247-3f07-aca0-5faf0f272678/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260415/16/f8c2dbed-c92c-30e5-bd67-7ee96d17b1d0/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/13/cb48bb7d-dfee-3b71-97b6-20aa5f2afe74/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/13/e8f43e35-3c38-3818-b5c0-f20f8b05830b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260415/16/3bc6c861-9815-35e0-9e3b-e184b830b42e/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/13/ee38fb1f-5fe0-3297-b6e3-ad18d8775d21/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/13/b0642d37-7c78-31e0-8f5c-361d13d2c946/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260415/16/4d7de62f-c064-3e99-a538-3f66c0412ed3/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/13/37089f80-5a81-3a12-ac86-4f20559c8afb/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/13/803099ca-7e37-3601-ba8e-b53f1a2cf30a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260415/16/6d6757a7-44ed-3cbd-b541-e3c6565ce186/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260411/13/0d4d66e4-1152-335a-a4a0-e0d41ecd4280/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/13/6e6ea31a-604d-3183-ba7a-e1889229cf39/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260415/16/c7ba903c-0003-3f82-9fbe-ac08081da566/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/13/33a052df-d074-39c9-9f74-6f50975f0ac4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/13/31d7cb50-4c4c-3fe6-9fd3-2d69e9c66071/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260415/16/dc465d03-e2f8-3bec-a579-43063c5645fa/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/13/e036c55a-8be4-374b-bdd3-693e94d3b969/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/13/0d7a9c07-d03a-3269-bd77-03f62768989f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260415/16/9e2bd143-9fa6-3129-bd17-ab83d879a04c/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260411/13/07aa7670-25d3-3e08-9183-81ed851c2090/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260411/13/252e2faf-0d76-3507-8f70-246343739bc5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260415/16/7efb10bf-1919-38a6-958c-487e6ef42604/1_org_zoom.jpg
+  - id: "869024963"
+    kod: ""
+    ad: "Yakamoz Penye Bluz"
+    tam_ad: "Yakamoz Desen Yaka Ve Kol İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: ""
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/12/908136b8-0779-3f2a-aa9b-d3f0a94d5ab1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/12/be6a5eb1-59e9-315c-93b4-7d6e075a7f43/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/12/265d150a-3c4e-391d-aa8a-ce1f15c0ee66/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260421/12/424c83a6-3e47-3ec8-8970-236315406d91/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260421/12/cdf95856-1054-3708-8eeb-9616e5a07aed/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260421/12/56395227-3def-32f6-a4cc-afa5a99a7aa2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260421/12/c805b16f-2158-3a6d-8d15-12175d8b9860/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/12/1d53f774-d8fa-3d83-943c-bfe6131c28a1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Zümrüt"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/12/b0886d00-925c-3723-9a1e-58841b195e99/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260421/12/49c4bf33-0212-39e0-9e91-79c004368b1a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260421/12/31475d1e-1acb-3a06-922c-388d8c19a667/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/12/5deec421-288f-321a-ab27-7207fb0f1a47/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+  - id: "869058800"
+    kod: ""
+    ad: "Üç Gül Penye Bluz"
+    tam_ad: "Üç Gül Desen Yaka, Göğüs İşlemeli, Taşlı Anne Penye Bluz"
+    kategori: "Penye"
+    iplik: ""
+    gramaj: ""
+    beden_serisi: "M–2XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260421/13/129965c3-764c-3163-b3a5-01d24eeb9904/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/13/3b3ccc67-4d27-33bd-8ed7-d788d4f7f8f5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/13/0786c845-1adb-334b-a230-bce8e2aad389/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260421/13/b2431cd8-576e-3476-8bab-915fbc644a7d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/13/7b79a12f-1fe1-3339-b7e4-0977ba4c4216/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/13/63e5b44b-f9e2-3227-9e9e-25a816e32322/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Haki"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/13/53c2c75e-384e-3b75-9344-902ea3ffdba4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/13/2db9cd69-5b23-330f-9b8a-64dcac302d2c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260421/13/490c7f7a-fd7e-3af9-9c67-bcf21cdd1267/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/13/4265abd5-64de-3dff-a716-e35ab5e8d06d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+  - id: "880416499"
+    kod: ""
+    ad: "Başak Işıltısı Büyük Beden Bluz"
+    tam_ad: "Büyük Beden Başak Işıltısı Desen, Yaka İşlemeli, Taşlı Anne Penye Bluz, Battal Boy"
+    kategori: "Penye Büyük Beden"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "L–4XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Kemik"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260523/18/8e14a8d5-778e-3469-9bfb-94fb18f4cfd7/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260523/18/a294769a-2449-34c9-8f0c-d73ba3e7fd9e/1_org_zoom.jpg
+      - ad: "Vizon"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260523/18/1a3ed85f-3f21-303a-aaac-324f00fdf2e4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260523/18/8c3e4ab1-c9ac-33f4-abb4-2e252d680480/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260523/18/6e80b8c3-d707-3edd-8a0c-92dca6b10e00/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260523/18/5aebc3db-aace-33c6-bb94-3b8fffcc1579/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260523/18/fe0c432d-a7d9-3cf0-8a19-3a99ecd6954b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260523/18/3c69dfd6-9d25-3396-8a4e-e57c18f8df01/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260523/18/45bc19bf-f7b3-3198-9385-a31bc7b84d13/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260523/18/b2441401-9547-3169-80cf-8c38e315118e/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260523/18/0b64a58c-f0d2-3dad-90b1-3539776863ea/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260523/18/0f3b5858-f853-3051-9dce-e0520ca342b9/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260523/18/eb8731b1-17ef-3f3f-b439-f5f96e320edf/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260523/18/d1145feb-a573-3af9-8014-a66d9b9c7ed9/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260523/18/a28cfc3b-aeed-3c41-907b-8a8a930c0f4b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260523/18/1011e6ba-7072-3634-93b9-d1754b12538d/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260523/18/d5fb129c-d997-3544-924d-cd6e314c43b0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260523/18/62b74920-ddae-383a-8249-42caa7b61503/1_org_zoom.jpg
+  - id: "865364472"
+    kod: ""
+    ad: "Papatya Bahçesi Büyük Beden Bluz"
+    tam_ad: "Büyük Beden Papatya Bahçesi Desen Yaka İşlemeli, Taşlı Anne Penye Bluz, Battal Boy"
+    kategori: "Penye Büyük Beden"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "2XL–4XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/15/0444fc3f-95cb-307f-afd8-554ec816f931/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/15/ca887d00-dd77-3137-a499-bf660bf79aee/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/206965bd-50d8-3685-876e-dd23abf87d34/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/05b7f9ea-b2d4-3d04-ac01-efda1342ca67/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/2c5ae21d-496f-39f7-bf1a-6607865a1df5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/57ad5e38-9799-3bbe-b455-ba25256d6b03/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/16/09feeec1-4daf-32be-b12d-737142f66ac2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/3855ccce-172f-3553-bd31-5e87e0c43bf1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/704d86fb-5e25-3ac4-9b81-3d2dbae101d7/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/16/2c5a0f36-1818-3864-b63b-977811b779a8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/16/4c733c94-4db7-3131-bccc-2cfd9abbaac7/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/ea910ae3-fdb3-33fa-add4-b4ff0fe27840/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/f442ddee-4fbd-32f8-b8bb-c11778ca38b3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/16/e4308f1d-e233-3571-b055-c3f8c2690ed0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/7c08cd2a-2a0f-3774-a147-6828be9f9c23/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/16/1e3d12e6-8ea7-3889-93c1-7ff4ffaab21f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/16/07e08b43-a248-32bc-9688-a16d1de0498e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+  - id: "864636828"
+    kod: ""
+    ad: "Papatya Büyük Beden Bluz"
+    tam_ad: "Büyük Beden Papatya Desen Yaka İşlemeli, Taşlı Anne Penye Bluz, Battal Boy"
+    kategori: "Penye Büyük Beden"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "2XL–4XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/14/d73c4066-aca6-347c-a279-91599addc7ec/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/12/322b300a-f210-35ce-9278-010032331ff5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/a6533a37-7b6e-368f-8634-770e696e9392/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/14/29026289-cd3a-3723-83e5-cc5a7f0740a0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/11/0ad1c8a8-8a2f-391c-9654-82acc88ffe52/1_org_zoom.jpg
+      - ad: "Pudra"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/12/de142cb5-fbac-348b-b1f2-52fa74f31536/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/9e8d1992-5d45-393f-bf3b-f250a56b71bc/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/f8d2c845-0528-3b35-83c6-a4acd46a38e3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/12/e01b3fd7-2e96-3e3d-9269-ec4b06457f5e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/06fdffcd-80c5-36c9-99c9-2d001ba27563/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/14/9171c757-472f-398e-945c-f628190580fe/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/264f78da-a4ce-3379-982a-5fee54431d56/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/4c94411c-86f1-36cb-8efc-8d92bf14eb6f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Parlament"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/12/30af3d09-a53c-33e6-9402-5c18b8fa70ae/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/12/9683e776-1d12-3c41-baa7-1276e871e225/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260409/14/069271cd-cb7d-3eb0-add2-5bc51644f99a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/12/6a61b989-3037-39e9-9517-1fef518a1245/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Gül Kurusu"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/12/0f743c69-5d7e-3822-9f98-b6e839e88cb4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260409/14/58f6990f-6865-3774-adc2-a1edbef469ca/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/12/bcba8156-f382-3ce4-8fc7-b289bd439c48/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Petrol"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/14/fd4cbe37-8a0f-3350-86dc-57d8ed2bf3da/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/0e3717cb-e6e2-3166-b707-9a7e3e66b8db/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/12/49ed0353-4e65-34ea-811a-1fd5ac74f30d/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/12/39bc9198-be37-3ff8-8299-f830e2df36c4/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260416/12/666e3a09-31e4-3a6a-a879-e17e1255cd69/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260409/14/6fd961de-d0ba-34d5-b298-ee0cac812e3a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260409/14/a8b51e1c-d29b-32c9-8723-d8c7aafe0907/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+      - ad: "Violet"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/12/15e4fd13-1007-345e-b379-5d4b75209492/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_ENRICHMENT/20260416/12/8e15d300-1e21-3df2-85ae-de85cb4f138e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/14/46323885-efbc-3250-848d-d323dcd174a9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
+  - id: "913239576"
+    kod: ""
+    ad: "V Yaka Klasik Büyük Beden Bluz"
+    tam_ad: "Büyük Beden V Yaka 3 Düğmeli Klasik Anne Penye Bluz"
+    kategori: "Penye Büyük Beden"
+    iplik: "Viskon Karışımlı"
+    gramaj: ""
+    beden_serisi: "2XL–3XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Mor"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1945/prod/QC_PREP/20260820/00/b5ab4992-b330-3c5f-8834-c6e5b9e25d8c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/25e12188-7337-3ae6-bde3-7d4c33c205ac/1_org_zoom.jpg
+      - ad: "İndigo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/9ea1ffb7-94e0-397b-bd02-d075d796a49c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/16137380-4cc6-31c6-9a9f-bef62ac3dbed/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1946/prod/QC_PREP/20260820/00/d631c51e-dfa4-3d5e-90f7-2b22358c3ab5/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/ac0c2266-b490-3a51-8972-a97b5ecf8d00/1_org_zoom.jpg
+      - ad: "Haki"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/682dd743-c321-3f80-8ba8-4589a468d4cb/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/1911b467-ae8e-323a-8c0e-0d485ffde93f/1_org_zoom.jpg
+      - ad: "Kiremit"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1946/prod/QC_PREP/20260820/00/c2374cbd-ca97-3c0c-a891-6fd7fdcf7e41/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/fb203905-f624-3a12-af45-ff645c3c1461/1_org_zoom.jpg
+      - ad: "Gri"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1944/prod/QC_PREP/20260820/00/493fdec1-6ed0-3f8c-a7f5-3c6b1133ba6a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1945/prod/QC_PREP/20260820/00/32c6b676-c126-33b3-9d1a-5475a7832064/1_org_zoom.jpg
+  - id: "913235542"
+    kod: ""
+    ad: "Işıltı Baskı Büyük Beden Bluz"
+    tam_ad: "Büyük Beden Işıltı Baskı Desenli Likralı Anne Penye Bluz"
+    kategori: "Penye Büyük Beden"
+    iplik: "Viskon Karışımlı"
+    gramaj: ""
+    beden_serisi: "2XL–3XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "İndigo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1945/prod/QC_PREP/20260820/00/0d5d7d71-721d-341b-8b74-f42d20bf22b8/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1946/prod/QC_PREP/20260820/00/5289124f-572a-339e-9efd-baaa68cffdf6/1_org_zoom.jpg
+      - ad: "Bej"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260916/15/15fdfc7f-12f9-322d-bf4d-49d3c8662ffb/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260916/15/2c5259b1-6ae6-3204-9048-d6025c93f3f5/1_org_zoom.jpg
+  - id: "867108914"
+    kod: ""
+    ad: "Serin Bahar Triko Yelek"
+    tam_ad: "Anne Yelek – Serin Bahar Merserize Triko, Cepli, Düğmeli"
+    kategori: "Hırka & Yelek"
+    iplik: "Triko"
+    gramaj: ""
+    beden_serisi: "M–4XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260415/05/4abc0d28-d33a-3dfd-b6c5-4c337ceff7d0/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260415/05/3b60a688-d1a6-353b-99f1-7258a88b081e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_ENRICHMENT/20260430/11/3a2e39f1-4d99-392e-93b1-72ada5495c9b/1_org_zoom.jpg
+      - ad: "Pembe"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260415/05/9f18ec4f-22bc-31e3-8d40-224de35660b7/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260415/05/53100d21-61a9-3c25-8fb9-6ba3836d7d9e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_ENRICHMENT/20260430/11/3a2e39f1-4d99-392e-93b1-72ada5495c9b/1_org_zoom.jpg
+      - ad: "Mürdüm"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260415/05/935b4556-e9be-3ae2-a785-847265806f0b/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260415/05/188cf329-2670-3d58-ab82-f7e4b64aa3a3/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_ENRICHMENT/20260430/11/3a2e39f1-4d99-392e-93b1-72ada5495c9b/1_org_zoom.jpg
+      - ad: "Haki"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260415/05/d16b339d-0384-35bf-9bc9-3ea700f9694a/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260415/05/4b155209-ee59-35d8-b4c3-1631ba619ede/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_ENRICHMENT/20260430/11/3a2e39f1-4d99-392e-93b1-72ada5495c9b/1_org_zoom.jpg
+      - ad: "Gri"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260415/05/3e205165-915b-38c5-ad3b-8ca1dd802d69/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260415/05/1beaa1a0-2173-37ac-8c08-392e71e792c7/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_ENRICHMENT/20260430/11/3a2e39f1-4d99-392e-93b1-72ada5495c9b/1_org_zoom.jpg
+      - ad: "Sütlü Kahve"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260415/05/271903a0-7ea1-391b-a60d-2096b9df5e67/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260415/05/a8055942-e906-30cc-9947-dfb381c0e2da/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1941/prod/QC_ENRICHMENT/20260430/11/3a2e39f1-4d99-392e-93b1-72ada5495c9b/1_org_zoom.jpg
+  - id: "867481179"
+    kod: ""
+    ad: "V Yaka Düğmeli Triko Hırka"
+    tam_ad: "V Yaka Düğmeli Triko Anne Hırka"
+    kategori: "Hırka & Yelek"
+    iplik: "Triko"
+    gramaj: ""
+    beden_serisi: "Standart"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Lacivert"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260416/11/0fc3beb3-b6a9-3644-ad9f-8b465c91436c/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260416/11/f2e8745e-891b-3347-a620-8dcb36e01012/1_org_zoom.jpg
+      - ad: "Gri"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260416/11/800145d5-87cd-30f7-afc9-cffc14f591b6/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260416/11/ef6befd2-dedd-390a-8f96-1b1d1cba5cc5/1_org_zoom.jpg
+  - id: "864203507"
+    kod: ""
+    ad: "Bisiklet Yaka Viskon Body"
+    tam_ad: "Genç Uzun Kollu Bisiklet Yaka Viskon Body"
+    kategori: "Badi"
+    iplik: "Viskon"
+    gramaj: ""
+    beden_serisi: "M–XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260408/12/7b601bfd-0b75-379f-82fb-959b7d935042/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/12/b739d4a2-eab1-3c0a-b030-81605faac0e9/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260408/12/50423645-d48e-3f8e-bb50-4721f68281a1/1_org_zoom.jpg
+      - ad: "Beyaz"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260408/12/7482bbe3-beb8-31f4-a2fd-9dbeebe0b585/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260408/12/7e874bce-0681-3293-b99f-f133809d884e/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/12/9f4aa252-5408-37fa-8513-66c4940e58c9/1_org_zoom.jpg
+  - id: "930656734"
+    kod: ""
+    ad: "Serin Dokunuş Triko Kazak"
+    tam_ad: "Serin Dokunuş Desenli Bisiklet Yaka Soğuk İplik Mevsimlik Triko Anne Kazak Bluz"
+    kategori: "Triko Kazak"
+    iplik: "Triko"
+    gramaj: ""
+    beden_serisi: "M–2XL"
+    seri_adedi: ""
+    sevke_hazir: true
+    aktif: true
+    renkler:
+      - ad: "Bordo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/12/02e41eba-aa61-3b46-b5f4-9bab9896eb5f/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/12/d2223906-f48a-3c42-a06d-5960ec7d4ee5/1_org_zoom.jpg
+      - ad: "Bej"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/12/9a210fd6-9b77-37c4-8a55-1e8701295a92/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/12/65276cbc-4291-3927-a0ad-42d514231678/1_org_zoom.jpg
+      - ad: "Siyah"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/12/8e2bfcd2-8de3-3b11-bfa4-39410ef5dcf2/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/12/88fd060b-d5a5-36db-888c-6879598f2637/1_org_zoom.jpg
+      - ad: "Yeşil"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/12/d4ad524f-d13b-37b8-856e-9017f76a2a68/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/12/5ae63c65-bc36-3e0f-a7b7-4c99f701376d/1_org_zoom.jpg
+      - ad: "Kahverengi"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/12/79721730-2c92-39f8-9809-7ef82b300448/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/12/2d757719-e951-30be-a693-596b9f922b41/1_org_zoom.jpg
+      - ad: "İndigo"
+        fotolar:
+          - https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/12/5e9e3668-8e5f-3e8e-9b28-3bac4d540dc1/1_org_zoom.jpg
+          - https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/12/fb333957-172e-37de-ace2-7de4e5c65ccc/1_org_zoom.jpg

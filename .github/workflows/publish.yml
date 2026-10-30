@@ -1,0 +1,66 @@
+name: Paylaşım
+
+# Her 15 dakikada bir çalışır; zamanı gelmiş ve henüz paylaşılmamış içerikleri yayınlar.
+# GitHub cron'u yoğunlukta 5–30 dk gecikebilir; içerik atlanmaz, tetiklendiği anda paylaşılır.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "DRY_RUN: üret ama paylaşma"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write # posted_state.json ve media dalı için
+
+# Aynı anda tek çalışma: tekrar paylaşımı ve state çakışmasını önler.
+concurrency:
+  group: esiler-state
+  cancel-in-progress: false
+
+jobs:
+  paylas:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) || vars.DRY_RUN == 'true' }}
+      STATE_PUSH: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: |
+          git config user.name "esiler-bot"
+          git config user.email "esiler-bot@users.noreply.github.com"
+
+      - name: Zamanı gelen paylaşım var mı?
+        id: check
+        run: npx tsx src/cli.ts check
+
+      - name: FFmpeg ve HEIC dönüştürücü
+        if: steps.check.outputs.due != '0' || github.event_name == 'workflow_dispatch'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libheif-examples > /dev/null
+
+      - name: Üret ve paylaş
+        if: steps.check.outputs.due != '0' || github.event_name == 'workflow_dispatch'
+        run: npx tsx src/cli.ts run-due
+
+      - name: Üretilen dosyalar
+        if: always() && (steps.check.outputs.due != '0' || github.event_name == 'workflow_dispatch')
+        uses: actions/upload-artifact@v4
+        with:
+          name: paylasim-${{ github.run_id }}
+          path: out/
+          retention-days: 7
+          if-no-files-found: ignore

@@ -1,0 +1,27 @@
+# Cumartesi "toptan alımda bilmeniz gereken 3 şey" Reels'i için ipucu setleri.
+# Her hafta sıradaki set kullanılır. İstediğiniz kadar set ekleyebilirsiniz.
+setler:
+  - baslik: Toptan alımda bilmeniz gereken 3 şey
+    maddeler:
+      - baslik: Seri mantığı
+        metin: Toptanda ürünler beden serisi halinde gelir. Serideki beden dağılımını sipariş öncesi sorun.
+      - baslik: İplik içeriği
+        metin: Etikette yazan iplik karışımı; tutuşu, yıkamayı ve müşteri memnuniyetini belirler.
+      - baslik: Renk dağılımı
+        metin: Mağazanızın müşterisini düşünün. Koyu ve açık tonları dengeli seçmek satışı hızlandırır.
+  - baslik: Sezon siparişinde 3 altın kural
+    maddeler:
+      - baslik: Erken planlayın
+        metin: Sezon başında sipariş veren butik, en çok satan renkleri kaçırmaz.
+      - baslik: Az model, çok renk
+        metin: Satan modeli farklı renklerde almak, rafı yenilerken riski azaltır.
+      - baslik: Sevkiyat gününü bilin
+        metin: Siparişin hangi gün kargoya çıkacağını önceden öğrenin, vitrininizi buna göre planlayın.
+  - baslik: Toptancı seçerken 3 soru
+    maddeler:
+      - baslik: Üretim kimde?
+        metin: Kendi üretimini yapan firmada renk ve stok devamlılığı daha güvenlidir.
+      - baslik: Numune ve fotoğraf
+        metin: Kumaşı ve dikişi görmek için yakın çekim fotoğraf ya da video isteyin.
+      - baslik: İletişim hızı
+        metin: Sorunuza hızlı dönen toptancı, sezon içinde de yanınızda olur.

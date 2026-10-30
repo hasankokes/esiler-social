@@ -1,0 +1,53 @@
+name: Haftalık önizleme
+
+# Her pazar 14:00 (Türkiye) gelecek haftanın tüm içeriklerini üretir ve görselli bir GitHub issue açar.
+# Seçilen ürünler kaydedilir; hafta içinde paylaşılan içerik önizlemedekiyle aynı olur.
+on:
+  schedule:
+    - cron: "0 11 * * 0" # 11:00 UTC = 14:00 TR
+  workflow_dispatch:
+    inputs:
+      this_week:
+        description: "Bu haftayı önizle (varsayılan: gelecek hafta)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: esiler-state
+  cancel-in-progress: false
+
+jobs:
+  onizleme:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      STATE_PUSH: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libheif-examples > /dev/null
+      - run: |
+          git config user.name "esiler-bot"
+          git config user.email "esiler-bot@users.noreply.github.com"
+          gh label create onizleme --color D4C5A9 --force
+      - name: Haftayı üret ve issue aç
+        run: npx tsx src/cli.ts preview --issue --save-plans ${{ inputs.this_week && '--this-week' || '' }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: onizleme-${{ github.run_id }}
+          path: out/onizleme/
+          retention-days: 14
+          if-no-files-found: ignore

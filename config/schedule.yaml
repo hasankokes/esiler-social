@@ -1,0 +1,107 @@
+# Paylaşım takvimi. Saatler Türkiye saatidir (Europe/Istanbul).
+#
+# gun:    pazartesi, sali, carsamba, persembe, cuma, cumartesi, pazar
+# tur:    hikaye | post | carousel | reels
+# icerik: yeni_gelenler, renk_kartelasi, anket, sevke_hazir, atolye_reels, doku_yakin,
+#         urun_karti, son_siparis, tek_model_renkler, musteri_vitrini, paketleme,
+#         egitici_reels, soru_cevap
+#
+# İsteğe bağlı slot ayarları:
+#   aktif: false                 → slot hiç çalışmaz
+#   kanallar: {facebook: false}  → bu slot sadece Instagram'a gider
+#   elle: true                   → görsel üretilir ama paylaşılmaz (elle paylaşmak için)
+
+saat_dilimi: Europe/Istanbul
+
+# Kanal ana şalterleri
+kanallar:
+  instagram: true
+  facebook: true
+
+# GitHub Actions gecikse bile içerik atlanmaz, tetiklendiği anda paylaşılır.
+# Çok eski içeriklerin paylaşılmasını istemezseniz buraya saat yazın (ör. 6). Boş = sınırsız.
+en_fazla_gecikme_saat:
+
+# Bu günlerde hiç paylaşım yapılmaz (YYYY-AA-GG)
+tatiller: []
+
+slotlar:
+  # ── Pazartesi ──
+  - id: pzt-yeni-gelenler
+    gun: pazartesi
+    saat: "08:30"
+    tur: hikaye
+    icerik: yeni_gelenler
+  - id: pzt-kartela
+    gun: pazartesi
+    saat: "12:30"
+    tur: carousel
+    icerik: renk_kartelasi
+  - id: pzt-anket
+    gun: pazartesi
+    saat: "16:30"
+    tur: hikaye
+    icerik: anket
+
+  # ── Salı ──
+  - id: sal-sevke-hazir
+    gun: sali
+    saat: "09:00"
+    tur: hikaye
+    icerik: sevke_hazir
+  - id: sal-atolye
+    gun: sali
+    saat: "15:30"
+    tur: reels
+    icerik: atolye_reels
+
+  # ── Çarşamba ──
+  - id: car-doku
+    gun: carsamba
+    saat: "08:30"
+    tur: hikaye
+    icerik: doku_yakin
+  - id: car-urun-karti
+    gun: carsamba
+    saat: "12:30"
+    tur: post
+    icerik: urun_karti
+
+  # ── Perşembe ──
+  - id: per-son-siparis
+    gun: persembe
+    saat: "13:00"
+    tur: hikaye
+    icerik: son_siparis
+    ayarlar:
+      baslik: Cuma ve Cumartesi sevkiyatı
+      son_saat: "17:00"
+  - id: per-renkler
+    gun: persembe
+    saat: "15:30"
+    tur: reels
+    icerik: tek_model_renkler
+
+  # ── Cuma ──
+  - id: cum-vitrin
+    gun: cuma
+    saat: "10:00"
+    tur: post
+    icerik: musteri_vitrini
+  - id: cum-paketleme
+    gun: cuma
+    saat: "16:00"
+    tur: hikaye
+    icerik: paketleme
+
+  # ── Cumartesi ──
+  - id: cmt-egitici
+    gun: cumartesi
+    saat: "11:00"
+    tur: reels
+    icerik: egitici_reels
+  - id: cmt-soru-cevap
+    gun: cumartesi
+    saat: "14:00"
+    tur: hikaye
+    icerik: soru_cevap
