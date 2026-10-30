@@ -72,22 +72,22 @@ atolye_reels:
 
 atolye_yedek:
   - |
-    {ad} — {renk_sayisi} renk seçeneği.
-    Kendi üretimimiz, seri halinde toptan satış.
+    Kendi üretimimiz, seri halinde toptan satış. 🧶
+    Bu haftanın öne çıkan modelleri.
   - |
-    Yeni sezon modellerimizden {ad}.
-    {beden} beden serisi, {renk_sayisi} renk.
+    Atölyemizden çıkan yeni sezon modelleri.
+    Her model farklı renk ve beden serisiyle.
 
 tek_model_renkler:
   - |
-    Tek model, {renk_sayisi} renk: {ad} 🎨
-    Hangisi sizin vitrininize? Yorumlara yazın.
+    Tek model, renk renk: {ad} 🎨
+    Toplam {renk_sayisi} renk seçeneği. Hangisi sizin vitrininize? Yorumlara yazın.
   - |
     {ad} hangi renkte daha güzel?
-    {renkler}
+    Tüm renkler: {renkler}
   - |
     Renk seçmekte zorlanacaksınız: {ad}
-    {beden} beden serisi, seri halinde sevk.
+    {renk_sayisi} renk, {beden} beden serisi.
 
 egitici_reels:
   - |

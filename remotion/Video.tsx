@@ -171,7 +171,7 @@ const Renkler: React.FC<Extract<VideoProps, { kind: "renkler" }>> = (p) => {
   return (
     <AbsoluteFill>
       <Sequence durationInFrames={s(INTRO)}>
-        <Intro brand={p.brand} kicker={p.urun.ad} title={`Tek model, ${n} renk`} />
+        <Intro brand={p.brand} kicker={p.urun.ad} title="Tek model, çok renk" />
       </Sequence>
       {p.kareler.map((k, i) => (
         <Sequence key={k.renk.ad} from={s(INTRO + i * PER_COLOR)} durationInFrames={s(PER_COLOR)}>
