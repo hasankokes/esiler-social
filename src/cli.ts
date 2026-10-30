@@ -5,11 +5,13 @@ import { publishPreviewIssue } from "./preview-issue.js";
 import { checkDue, preview, runDue } from "./runner.js";
 import { renderSamples } from "./samples.js";
 import { localParts, occurrencesBetween } from "./schedule.js";
+import { verifySetup } from "./verify.js";
 
 // Kullanım:
 //   npm run run-due [-- --dry-run] [--now=2026-11-02T09:00:00+03:00]
 //   npm run preview [-- --this-week] [--issue] [--save-plans]
 //   npm run samples
+//   npx tsx src/cli.ts verify          (token, izin ve kimlik kontrolü; paylaşım yapmaz)
 //   npx tsx src/cli.ts check           (zamanı gelen paylaşım sayısı; workflow kullanır)
 //   npm run plan                       (önümüzdeki 7 günün takvimini listeler)
 
@@ -44,6 +46,9 @@ async function main() {
       if (flag("issue")) await publishPreviewIssue(summary, localParts(now ?? new Date(), "Europe/Istanbul").date);
       break;
     }
+    case "verify":
+      await verifySetup();
+      break;
     case "samples":
       await renderSamples();
       break;
@@ -56,7 +61,7 @@ async function main() {
       break;
     }
     default:
-      console.log("Komutlar: check | run-due | preview | samples | plan");
+      console.log("Komutlar: check | run-due | preview | samples | plan | verify");
       process.exitCode = 1;
   }
 }
