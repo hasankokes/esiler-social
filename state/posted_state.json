@@ -5,9 +5,9 @@
     "2026-11-02_pzt-yeni-gelenler": {
       "hatalar": {
         "instagram": {
-          "deneme": 7,
+          "deneme": 8,
           "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T07:02:22.581Z"
+          "zaman": "2026-11-02T07:16:56.757Z"
         },
         "facebook": {
           "deneme": 7,
