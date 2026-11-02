@@ -29,6 +29,15 @@
           "zaman": "2026-11-02T11:16:11.400Z"
         }
       }
+    },
+    "2026-11-02_pzt-anket": {
+      "hatalar": {
+        "instagram": {
+          "deneme": 1,
+          "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
+          "zaman": "2026-11-02T13:33:19.528Z"
+        }
+      }
     }
   },
   "planlar": {
