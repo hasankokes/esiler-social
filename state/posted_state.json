@@ -1,7 +1,17 @@
 {
   "surum": 1,
   "yayin_baslangic": "2026-11-01T21:00:00.000Z",
-  "paylasimlar": {},
+  "paylasimlar": {
+    "2026-11-02_pzt-yeni-gelenler": {
+      "hatalar": {
+        "instagram": {
+          "deneme": 1,
+          "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
+          "zaman": "2026-11-02T05:31:58.996Z"
+        }
+      }
+    }
+  },
   "planlar": {
     "2026-11-02_pzt-yeni-gelenler": {
       "urunler": [
