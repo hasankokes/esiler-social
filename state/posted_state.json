@@ -19,9 +19,9 @@
     "2026-11-02_pzt-kartela": {
       "hatalar": {
         "instagram": {
-          "deneme": 6,
+          "deneme": 7,
           "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T10:46:19.815Z"
+          "zaman": "2026-11-02T11:01:34.767Z"
         },
         "facebook": {
           "deneme": 6,
