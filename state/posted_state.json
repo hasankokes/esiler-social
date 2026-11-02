@@ -33,9 +33,9 @@
     "2026-11-02_pzt-anket": {
       "hatalar": {
         "instagram": {
-          "deneme": 7,
+          "deneme": 8,
           "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T15:01:45.134Z"
+          "zaman": "2026-11-02T15:17:05.249Z"
         },
         "facebook": {
           "deneme": 7,
