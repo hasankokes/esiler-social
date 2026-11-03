@@ -1,7 +1,15 @@
 {
   "surum": 1,
   "yayin_baslangic": "2026-11-01T21:00:00.000Z",
-  "paylasimlar": {},
+  "paylasimlar": {
+    "2026-11-02_pzt-yeni-gelenler": {
+      "instagram": {
+        "id": "18113983625580160",
+        "url": "https://www.instagram.com/stories/esilertriko/4022210289952743801",
+        "zaman": "2026-11-03T11:20:59.316Z"
+      }
+    }
+  },
   "planlar": {
     "2026-11-02_pzt-yeni-gelenler": {
       "urunler": [
