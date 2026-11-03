@@ -52,9 +52,9 @@
           "zaman": "2026-11-03T06:16:36.426Z"
         },
         "facebook": {
-          "deneme": 1,
+          "deneme": 2,
           "son_hata": "FB sayfa token'ı: API access blocked. [kod 200]",
-          "zaman": "2026-11-03T06:02:35.895Z"
+          "zaman": "2026-11-03T06:16:37.869Z"
         }
       }
     }
