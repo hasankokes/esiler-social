@@ -47,9 +47,9 @@
     "2026-11-03_sal-sevke-hazir": {
       "hatalar": {
         "instagram": {
-          "deneme": 1,
+          "deneme": 2,
           "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-03T06:02:34.197Z"
+          "zaman": "2026-11-03T06:16:36.426Z"
         },
         "facebook": {
           "deneme": 1,
