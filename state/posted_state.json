@@ -50,6 +50,11 @@
           "deneme": 1,
           "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
           "zaman": "2026-11-03T06:02:34.197Z"
+        },
+        "facebook": {
+          "deneme": 1,
+          "son_hata": "FB sayfa token'ı: API access blocked. [kod 200]",
+          "zaman": "2026-11-03T06:02:35.895Z"
         }
       }
     }
