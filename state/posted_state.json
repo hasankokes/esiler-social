@@ -1,64 +1,7 @@
 {
   "surum": 1,
   "yayin_baslangic": "2026-11-01T21:00:00.000Z",
-  "paylasimlar": {
-    "2026-11-02_pzt-yeni-gelenler": {
-      "hatalar": {
-        "instagram": {
-          "deneme": 8,
-          "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T07:16:56.757Z"
-        },
-        "facebook": {
-          "deneme": 8,
-          "son_hata": "FB sayfa token'ı: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T07:16:57.989Z"
-        }
-      }
-    },
-    "2026-11-02_pzt-kartela": {
-      "hatalar": {
-        "instagram": {
-          "deneme": 8,
-          "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T11:16:09.802Z"
-        },
-        "facebook": {
-          "deneme": 8,
-          "son_hata": "FB sayfa token'ı: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T11:16:11.400Z"
-        }
-      }
-    },
-    "2026-11-02_pzt-anket": {
-      "hatalar": {
-        "instagram": {
-          "deneme": 8,
-          "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T15:17:05.249Z"
-        },
-        "facebook": {
-          "deneme": 8,
-          "son_hata": "FB sayfa token'ı: API access blocked. [kod 200]",
-          "zaman": "2026-11-02T15:17:07.275Z"
-        }
-      }
-    },
-    "2026-11-03_sal-sevke-hazir": {
-      "hatalar": {
-        "instagram": {
-          "deneme": 8,
-          "son_hata": "IG container oluşturma: API access blocked. [kod 200]",
-          "zaman": "2026-11-03T07:46:13.571Z"
-        },
-        "facebook": {
-          "deneme": 8,
-          "son_hata": "FB sayfa token'ı: API access blocked. [kod 200]",
-          "zaman": "2026-11-03T07:46:15.307Z"
-        }
-      }
-    }
-  },
+  "paylasimlar": {},
   "planlar": {
     "2026-11-02_pzt-yeni-gelenler": {
       "urunler": [
