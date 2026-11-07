@@ -136,6 +136,20 @@
         "url": "https://www.facebook.com/reel/1456040026717057",
         "zaman": "2026-11-07T08:03:54.014Z"
       }
+    },
+    "2026-11-07_cmt-soru-cevap": {
+      "hatalar": {
+        "instagram": {
+          "deneme": 1,
+          "son_hata": "2026-11-07_cmt-soru-cevap: medya yüklenemedi: GitHub Pages 10 dk içinde yayınlamadı: 2026-11-07_cmt-soru-cevap/hikaye.jpg (Settings → Pages kaynağı \"media\" dalı mı?)",
+          "zaman": "2026-11-07T11:11:39.963Z"
+        },
+        "facebook": {
+          "deneme": 1,
+          "son_hata": "2026-11-07_cmt-soru-cevap: medya yüklenemedi: GitHub Pages 10 dk içinde yayınlamadı: 2026-11-07_cmt-soru-cevap/hikaye.jpg (Settings → Pages kaynağı \"media\" dalı mı?)",
+          "zaman": "2026-11-07T11:11:39.963Z"
+        }
+      }
     }
   },
   "planlar": {
