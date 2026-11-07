@@ -138,17 +138,15 @@
       }
     },
     "2026-11-07_cmt-soru-cevap": {
-      "hatalar": {
-        "facebook": {
-          "deneme": 1,
-          "son_hata": "2026-11-07_cmt-soru-cevap: medya yüklenemedi: GitHub Pages 10 dk içinde yayınlamadı: 2026-11-07_cmt-soru-cevap/hikaye.jpg (Settings → Pages kaynağı \"media\" dalı mı?)",
-          "zaman": "2026-11-07T11:11:39.963Z"
-        }
-      },
+      "hatalar": {},
       "instagram": {
         "id": "18456914812135187",
         "url": "https://www.instagram.com/stories/esilertriko/4025107334741601968",
         "zaman": "2026-11-07T11:16:55.085Z"
+      },
+      "facebook": {
+        "id": "1634564478042095",
+        "zaman": "2026-11-07T11:17:00.938Z"
       }
     }
   },
