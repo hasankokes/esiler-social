@@ -662,6 +662,7 @@ urunler:
           - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/a86533d1-28d9-306d-b64b-a75b60e88fde/1_org_zoom.jpg
   - id: "876321818"
     kod: ""
+    kendi_uretim: false
     ad: "Silüet Simli Penye Bluz"
     tam_ad: "Silüet Baskı Desenli Simli Likralı Anne Penye Bluz"
     kategori: "Penye"
