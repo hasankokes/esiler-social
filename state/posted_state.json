@@ -260,30 +260,152 @@
       "yedek_urunler": [],
       "metin": 0,
       "olusturma": "2026-10-30T12:18:34.098Z"
+    },
+    "2026-11-09_pzt-yeni-gelenler": {
+      "urunler": [
+        "938046666",
+        "936775136",
+        "936546630",
+        "936568714"
+      ],
+      "yedek_urunler": [],
+      "metin": 0,
+      "olusturma": "2026-11-08T10:33:21.685Z"
+    },
+    "2026-11-09_pzt-kartela": {
+      "urunler": [
+        "936568714"
+      ],
+      "yedek_urunler": [],
+      "metin": 1,
+      "olusturma": "2026-11-08T10:33:23.821Z"
+    },
+    "2026-11-09_pzt-anket": {
+      "urunler": [
+        "864112317",
+        "869024963"
+      ],
+      "yedek_urunler": [],
+      "metin": 0,
+      "olusturma": "2026-11-08T10:33:31.723Z"
+    },
+    "2026-11-10_sal-sevke-hazir": {
+      "urunler": [
+        "936568714",
+        "879120510",
+        "880901080"
+      ],
+      "yedek_urunler": [],
+      "metin": 0,
+      "olusturma": "2026-11-08T10:33:33.035Z"
+    },
+    "2026-11-10_sal-atolye": {
+      "urunler": [],
+      "yedek_urunler": [
+        "865369612",
+        "869058800",
+        "913239576",
+        "867108914"
+      ],
+      "metin": 1,
+      "olusturma": "2026-11-08T10:33:34.450Z"
+    },
+    "2026-11-11_car-doku": {
+      "urunler": [
+        "865045808"
+      ],
+      "yedek_urunler": [],
+      "metin": 0,
+      "olusturma": "2026-11-08T10:34:03.705Z"
+    },
+    "2026-11-11_car-urun-karti": {
+      "urunler": [
+        "864548374"
+      ],
+      "yedek_urunler": [],
+      "metin": 1,
+      "olusturma": "2026-11-08T10:34:05.318Z"
+    },
+    "2026-11-12_per-son-siparis": {
+      "urunler": [
+        "938046666"
+      ],
+      "yedek_urunler": [],
+      "metin": 0,
+      "olusturma": "2026-11-08T10:34:06.657Z"
+    },
+    "2026-11-12_per-renkler": {
+      "urunler": [
+        "865426352"
+      ],
+      "yedek_urunler": [],
+      "metin": 1,
+      "olusturma": "2026-11-08T10:34:07.098Z"
+    },
+    "2026-11-13_cum-vitrin": {
+      "urunler": [],
+      "yedek_urunler": [
+        "880416499"
+      ],
+      "metin": 1,
+      "olusturma": "2026-11-08T10:34:39.102Z"
+    },
+    "2026-11-13_cum-paketleme": {
+      "urunler": [],
+      "yedek_urunler": [
+        "865364472"
+      ],
+      "metin": 0,
+      "olusturma": "2026-11-08T10:34:40.440Z"
+    },
+    "2026-11-14_cmt-egitici": {
+      "urunler": [],
+      "yedek_urunler": [],
+      "metin": 1,
+      "ipucu_seti": 1,
+      "olusturma": "2026-11-08T10:34:41.197Z"
+    },
+    "2026-11-14_cmt-soru-cevap": {
+      "urunler": [],
+      "yedek_urunler": [],
+      "metin": 0,
+      "olusturma": "2026-11-08T10:35:08.055Z"
     }
   },
   "one_cikanlar": {
+    "864112317": "2026-11-09",
+    "864548374": "2026-11-11",
     "864777715": "2026-11-06",
+    "865045808": "2026-11-11",
+    "865364472": "2026-11-13",
     "865368250": "2026-11-03",
+    "865369612": "2026-11-10",
+    "865426352": "2026-11-12",
+    "867108914": "2026-11-10",
+    "869024963": "2026-11-09",
+    "869058800": "2026-11-10",
     "876321818": "2026-11-06",
     "878866843": "2026-11-03",
     "879120510": "2026-11-03",
+    "880416499": "2026-11-13",
     "880447635": "2026-11-04",
     "880901080": "2026-11-05",
+    "913239576": "2026-11-10",
     "930656734": "2026-11-04",
     "936546630": "2026-11-02",
+    "936568714": "2026-11-09",
     "936775136": "2026-11-02",
     "938046666": "2026-11-03"
   },
   "kullanilan_medya": {},
   "sayaclar": {
-    "metin:renk_kartelasi": 1,
-    "sevke_hazir": 1,
-    "metin:atolye_reels": 1,
-    "metin:urun_karti": 1,
-    "metin:tek_model_renkler": 1,
-    "metin:musteri_vitrini": 1,
-    "metin:egitici_reels": 1,
-    "egitici": 1
+    "metin:renk_kartelasi": 2,
+    "sevke_hazir": 2,
+    "metin:atolye_reels": 2,
+    "metin:urun_karti": 2,
+    "metin:tek_model_renkler": 2,
+    "metin:musteri_vitrini": 2,
+    "metin:egitici_reels": 2,
+    "egitici": 2
   }
 }
