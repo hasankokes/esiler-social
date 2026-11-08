@@ -105,3 +105,13 @@ test("aynı kumaştan modeller aynı içerikte yan yana seçilmez", () => {
   const kumas = ids.map((id) => cfg.products.find((u) => u.id === id)!).map((u) => u.kumas || u.iplik);
   assert.equal(new Set(kumas).size, ids.length, `sevke hazır: ${kumas.join(", ")}`);
 });
+
+test("atölye yedeğine kendi üretimimiz olmayan model girmez", () => {
+  const state = emptyState();
+  const occ = occurrencesBetween(cfg, zonedTime("2026-11-10", "00:00", tz), zonedTime("2026-11-10", "23:59", tz)).find((o) => o.slot.icerik === "atolye_reels")!;
+  // Diğer herkes yakın zamanda gösterilmiş olsa bile başka üreticinin modeli seçilmez
+  for (const u of cfg.products) if (u.kendi_uretim !== false) markFeatured(state, [u.id], "2026-11-09");
+  const ids = ensurePlan(cfg, state, occ).yedek_urunler;
+  assert.equal(ids.length, 4);
+  assert.ok(ids.every((id) => cfg.products.find((u) => u.id === id)!.kendi_uretim !== false));
+});

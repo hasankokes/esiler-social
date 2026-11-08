@@ -4,6 +4,7 @@
 # - Fotoğraf: https://... adresi ya da Drive yolu (drive:urunler/MODEL/1.jpg).
 # - sevke_hazir: false yapılan ürün "sevke hazır stok" hikâyesine girmez.
 # - aktif: false yapılan ürün hiçbir paylaşımda kullanılmaz.
+# - kendi_uretim: false yapılan ürün (başka üreticinin modeli) atölye içeriğine girmez.
 # - kumas: aynı kumaştan modeller (ör. "Taşlı Yonca") aynı içerikte yan yana seçilmez.
 #   Boşsa iplik alanı kumaş sayılır.
 urunler:
@@ -1030,7 +1031,7 @@ urunler:
     gramaj: ""
     beden_serisi: "M–2XL"
     seri_adedi: ""
-    sevke_hazir: true
+    sevke_hazir: false # stok az
     aktif: true
     renkler:
       - ad: "Violet"
@@ -1226,6 +1227,7 @@ urunler:
           - https://cdn.dsmcdn.com/ty1854/prod/QC_ENRICHMENT/20260416/11/7c9a66c6-e4b4-3e1d-b21c-eef15290be97/1_org_zoom.jpg
   - id: "913239576"
     kod: ""
+    kendi_uretim: false
     ad: "V Yaka Klasik Büyük Beden Bluz"
     tam_ad: "Büyük Beden V Yaka 3 Düğmeli Klasik Anne Penye Bluz"
     kategori: "Penye Büyük Beden"
@@ -1282,6 +1284,7 @@ urunler:
           - https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260916/15/2c5259b1-6ae6-3204-9048-d6025c93f3f5/1_org_zoom.jpg
   - id: "867108914"
     kod: ""
+    kendi_uretim: false
     ad: "Serin Bahar Triko Yelek"
     tam_ad: "Anne Yelek – Serin Bahar Merserize Triko, Cepli, Düğmeli"
     kategori: "Hırka & Yelek"

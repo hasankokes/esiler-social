@@ -98,7 +98,9 @@ export function ensurePlan(cfg: Config, state: State, occ: Occurrence): Plan {
   }
   // Yedek ürünler de 14 gün kuralına uyar ve ayrılır (aynı hafta iki yedek aynı ürünü seçmesin).
   const fallbackN = FALLBACK[kind] ?? 0;
-  const yedek = fallbackN ? pickProducts(cfg, state, fallbackN, occ.date, { exclude: urunler }).map((u) => u.id) : [];
+  // Atölye içeriği "kendi üretimimiz" der; başka üreticinin modeli girmez.
+  const filter = kind === "atolye_reels" ? (u: Product) => u.kendi_uretim !== false : undefined;
+  const yedek = fallbackN ? pickProducts(cfg, state, fallbackN, occ.date, { exclude: urunler, filter }).map((u) => u.id) : [];
   markFeatured(state, yedek, occ.date);
   const captionKey = CAPTION_KEY[kind];
   const plan: Plan = {

@@ -60,6 +60,7 @@ export type Product = {
   beden_serisi?: string;
   seri_adedi?: string;
   sevke_hazir?: boolean;
+  kendi_uretim?: boolean;
   aktif?: boolean;
   renkler: ProductColor[];
 };
