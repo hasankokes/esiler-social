@@ -167,6 +167,10 @@
           "son_hata": "IG media_publish: Media ID is not available (The media is not ready to be published. Please wait a moment.) [kod 9007/2207027]",
           "zaman": "2026-11-09T09:33:01.513Z"
         }
+      },
+      "facebook": {
+        "id": "1395188817009914_122105852559535735",
+        "zaman": "2026-11-09T09:33:21.105Z"
       }
     }
   },
