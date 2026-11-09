@@ -161,16 +161,15 @@
       }
     },
     "2026-11-09_pzt-kartela": {
-      "hatalar": {
-        "instagram": {
-          "deneme": 1,
-          "son_hata": "IG media_publish: Media ID is not available (The media is not ready to be published. Please wait a moment.) [kod 9007/2207027]",
-          "zaman": "2026-11-09T09:33:01.513Z"
-        }
-      },
+      "hatalar": {},
       "facebook": {
         "id": "1395188817009914_122105852559535735",
         "zaman": "2026-11-09T09:33:21.105Z"
+      },
+      "instagram": {
+        "id": "17952528750054628",
+        "url": "https://www.instagram.com/p/DfhC73kEwG0/",
+        "zaman": "2026-11-09T09:48:45.322Z"
       }
     }
   },
